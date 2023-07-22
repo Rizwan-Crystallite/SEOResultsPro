@@ -1,0 +1,14 @@
+*.ini
+*.txt
+*.xml
+*.zip
+*.well-known
+*.log
+*.well-known
+*cgi-bin
+*old-pages
+*staging.bookwritingcube.co
+*admin.bookwritingcube.co
+*error_log
+error_log
+.vscode
