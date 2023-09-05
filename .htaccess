@@ -101,13 +101,6 @@ RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 Redirect 301 /seo-services https://seoresultspro.com/best-seo-services-provider
 Redirect 301 /website-design https://seoresultspro.com/website-design-agency
 Redirect     /what-is-xml-sitemap-&-why-its-important-for-seo-services /what-is-xml-sitemap-and-why-seo-agency-services-consider-it-important-for-seo
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php74” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
 RewriteCond %{HTTP_HOST} ^seoresultspro\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.seoresultspro\.com$
 
@@ -118,3 +111,10 @@ allow from all
 </Files>
 
 deny from 90.39.169.48
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
