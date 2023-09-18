@@ -899,14 +899,12 @@
     <!-- jQuery CDN  -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <!-- GSAP CDN  -->
-<<<<<<< HEAD
+
      <script>
         jQuery.event.special.touchstart={setup:function(e,t,s){this.addEventListener("touchstart",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.touchmove={setup:function(e,t,s){this.addEventListener("touchmove",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.wheel={setup:function(e,t,s){this.addEventListener("wheel",s,{passive:!0})}},jQuery.event.special.mousewheel={setup:function(e,t,s){this.addEventListener("mousewheel",s,{passive:!0})}};
     </script>
-=======
-    <script>jQuery.event.special.touchstart={setup:function(e,t,s){this.addEventListener("touchstart",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.touchmove={setup:function(e,t,s){this.addEventListener("touchmove",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.wheel={setup:function(e,t,s){this.addEventListener("wheel",s,{passive:!0})}},jQuery.event.special.mousewheel={setup:function(e,t,s){this.addEventListener("mousewheel",s,{passive:!0})}};
-</script>
->>>>>>> b3e8704de8be78cf9912ee7566488636f9bc9bca
+
+
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" defer></script>
@@ -923,7 +921,7 @@
     <script src="public/app/main.js" defer></script>
     <script src="public/app/footer.js" defer></script>
     <script src="public/app/homegsap.js" defer></script>
-    <!-- <script src="public/app/zendesk-chat.js" defer></script> -->
+     <script src="public/app/zendesk-chat.js" defer></script> 
     <script>
 // jQuery("#SEOAuditForm").submit(function(){event.preventDefault();let e=jQuery("#SEOAuditForm").serialize();$.ajax({url:"save.php",type:"POST",data:e,cache:1,beforeSend:function(){$("#SEOAuditForm button").html('<div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>')},success:function(e){window.location.replace("/thankyou"),console.log(e)}})}),jQuery("#leadPopupForm").submit(function(){event.preventDefault();let e=jQuery("#leadPopupForm").serialize();$.ajax({url:"save.php",type:"POST",data:e,cache:1,beforeSend:function(){$("#leadPopupForm button").html('<div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>')},success:function(e){window.location.replace("/thankyou"),console.log(e)}})}),jQuery("#leadForm").submit(function(){event.preventDefault();let e=jQuery("#leadForm").serialize();$.ajax({url:"save.php",type:"POST",data:e,cache:1,beforeSend:function(){$("#leadForm button").html('<div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>')},success:function(e){window.location.replace("/thankyou"),console.log(e)}})});
 

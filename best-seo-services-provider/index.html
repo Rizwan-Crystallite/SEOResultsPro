@@ -49,53 +49,53 @@
     <link rel="stylesheet" href="../public/styles/responsive.css" media="print"
         onload="this.onload=null;this.removeAttribute('media');" />
     <!-- Google Tag Manager -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11022581138"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11022581138"></script>-->
+    <!--<script>-->
+    <!--    window.dataLayer = window.dataLayer || [];-->
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'AW-11022581138');
-    </script>
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5FP9HZN');
-    </script>
+    <!--    function gtag() {-->
+    <!--        dataLayer.push(arguments);-->
+    <!--    }-->
+    <!--    gtag('js', new Date());-->
+    <!--    gtag('config', 'AW-11022581138');-->
+    <!--</script>-->
+    <!--<script>-->
+    <!--    (function (w, d, s, l, i) {-->
+    <!--        w[l] = w[l] || [];-->
+    <!--        w[l].push({-->
+    <!--            'gtm.start': new Date().getTime(),-->
+    <!--            event: 'gtm.js'-->
+    <!--        });-->
+    <!--        var f = d.getElementsByTagName(s)[0],-->
+    <!--            j = d.createElement(s),-->
+    <!--            dl = l != 'dataLayer' ? '&l=' + l : '';-->
+    <!--        j.async = true;-->
+    <!--        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;-->
+    <!--        f.parentNode.insertBefore(j, f);-->
+    <!--    })(window, document, 'script', 'dataLayer', 'GTM-5FP9HZN');-->
+    <!--</script>-->
     <!-- Meta Pixel Code -->
-    <script>
-        ! function (f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function () {
-                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '815377486247146');
-        fbq('track', 'PageView');
-    </script>
-    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=c636665b"></script>
+ <!--<script>-->
+ <!--        ! function (f, b, e, v, n, t, s) {-->
+ <!--            if (f.fbq) return;-->
+ <!--            n = f.fbq = function () {-->
+ <!--                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)-->
+ <!--            };-->
+ <!--            if (!f._fbq) f._fbq = n;-->
+ <!--            n.push = n;-->
+ <!--            n.loaded = !0;-->
+ <!--            n.version = '2.0';-->
+ <!--            n.queue = [];-->
+ <!--            t = b.createElement(e);-->
+ <!--            t.async = !0;-->
+ <!--           t.src = v;-->
+ <!--            s = b.getElementsByTagName(e)[0];-->
+ <!--            s.parentNode.insertBefore(t, s)-->
+ <!--        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');-->
+ <!--        fbq('init', '815377486247146');-->
+ <!--        fbq('track', 'PageView');-->
+ <!--    </script> -->
+   
 
 </head>
 
@@ -2995,6 +2995,9 @@
     <!-- jQuery CDN  -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+         <script>
+        jQuery.event.special.touchstart={setup:function(e,t,s){this.addEventListener("touchstart",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.touchmove={setup:function(e,t,s){this.addEventListener("touchmove",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.wheel={setup:function(e,t,s){this.addEventListener("wheel",s,{passive:!0})}},jQuery.event.special.mousewheel={setup:function(e,t,s){this.addEventListener("mousewheel",s,{passive:!0})}};
+    </script>
     <!-- Slick Slider JS CDN  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <!-- Bootstrap JS CDN -->
@@ -3004,13 +3007,96 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" async></script>
     <!-- Custom JS -->
-    <script src="../public/app/main.js" async></script>
-    <script src="../public/app/footer.js" async></script>
-    <script src="../public/app/seo.js" async></script>
-    <script src="../public/app/zendesk-chat.js" async></script>
+    <!--<script src="../public/app/main.js" defer></script>-->
+
     <script>
-        // jQuery("#SEOAuditForm").submit(function(){event.preventDefault();let e=jQuery("#SEOAuditForm").serialize();$.ajax({url:"../save.php",type:"POST",data:e,cache:1,success:function(e){console.log(e),window.location.replace("../thankyou/")}})}),jQuery("#leadPopupForm").submit(function(){event.preventDefault();let e=jQuery("#leadPopupForm").serialize();$.ajax({url:"../save.php",type:"POST",data:e,cache:1,success:function(e){window.location.replace("../thankyou/")}})}),jQuery("#leadForm").submit(function(){event.preventDefault();let e=jQuery("#leadForm").serialize();$.ajax({url:"../save.php",type:"POST",data:e,cache:1,success:function(e){window.location.replace("../thankyou/")}})});
+        function appendScript(src, async = false) {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = async;
+
+            // Append the script element to the document's head
+            document.head.appendChild(script);
+        }
+
+        // Function to append main.js
+        function appendMainScript() {
+            appendScript('../public/app/main.js', true);
+
+            // Remove the mousemove event listener to prevent multiple appends
+            document.body.removeEventListener('mousemove', appendMainScript);
+        }
+
+        // Function to append seo.js
+        function appendSeoScript() {
+            appendScript('../public/app/seo.js', true);
+
+            // Remove the mousemove event listener to prevent multiple appends
+            document.body.removeEventListener('mousemove', appendSeoScript);
+        }
+        
+        // Function to append Google Tag Manager and Google Ads scripts
+        function appendTagManagerScripts() {
+            appendScript('https://www.googletagmanager.com/gtag/js?id=AW-11022581138', true);
+
+            // Add the Google Ads configuration script
+            const googleAdsScript = document.createElement('script');
+            googleAdsScript.innerHTML = `
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+                gtag('config', 'AW-11022581138');
+            `;
+            document.head.appendChild(googleAdsScript);
+
+            // Add the Google Tag Manager script
+            appendScript('https://www.googletagmanager.com/gtm.js?id=GTM-5FP9HZN', true);
+
+            // Remove the mousemove event listener to prevent multiple appends
+            document.body.removeEventListener('mousemove', appendTagManagerScripts);
+        }
+
+        // Function to append Facebook Pixel script
+        function appendFacebookPixelScript() {
+            const facebookPixelScript = document.createElement('script');
+            facebookPixelScript.innerHTML = `
+                !function (f, b, e, v, n, t, s) {
+                    if (f.fbq) return;
+                    n = f.fbq = function () {
+                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!f._fbq) f._fbq = n;
+                    n.push = n;
+                    n.loaded = !0;
+                    n.version = '2.0';
+                    n.queue = [];
+                    t = b.createElement(e);
+                    t.async = !0;
+                    t.src = v;
+                    s = b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s)
+                }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '815377486247146');
+                fbq('track', 'PageView');
+            `;
+            document.head.appendChild(facebookPixelScript);
+
+            // Remove the mousemove event listener to prevent multiple appends
+            document.body.removeEventListener('mousemove', appendFacebookPixelScript);
+        }
+
+        // Add mousemove event listeners to the body for all scripts
+        document.body.addEventListener('mousemove', appendMainScript);
+        document.body.addEventListener('mousemove', appendSeoScript);
+        document.body.addEventListener('mousemove', appendFacebookPixelScript);
+        document.body.addEventListener('mousemove', appendTagManagerScripts);
     </script>
+    <script src="../public/app/footer.js" async></script>
+    <!--<script src="../public/app/seo.js" async></script>-->
+    <script src="../public/app/zendesk-chat.js" async></script>
+    
 </body>
 
 </html>
