@@ -1,0 +1,36 @@
+[
+    {
+        "filter": "real-estate",
+        "title": "Real Estate"
+    },
+    {
+        "filter": "beauty",
+        "title": "Beauty"
+    },
+    
+    {
+        "filter": "cbd",
+        "title": "CBD"
+    },
+    {
+        "filter": "education",
+        "title": "Eduction"
+    },
+    {
+        "filter": "food",
+        "title": "Food"
+    },
+    {
+        "filter": "health",
+        "title": "Health"
+    },
+    {
+        "filter": "non-profit",
+        "title": "Non Profit"
+    },
+    {
+        "filter": "e-commerce",
+        "title": "E-commerce"
+    }
+    
+]

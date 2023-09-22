@@ -1,0 +1,239 @@
+header#header .menu>ul>li>a {
+    color: #fff
+}
+
+.fomt .form-check-label,
+.font-12,
+.hometable td {
+    font-size: 12px
+}
+
+.imgabsolute {
+    position: absolute;
+    right: 0;
+    width: 650px;
+    top: 40%
+}
+
+.contactform1,
+.counter-box,
+.ulline li {
+    position: relative
+}
+
+.custombadge {
+    background-color: #af11b5;
+    padding: 5px 20px;
+    width: 157px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff
+}
+
+.counter {
+    font-size: 40px;
+    font-weight: 900;
+    color: #000;
+    margin: 0 5px
+}
+
+.counter-number span {
+    font-weight: 700;
+    font-size: 36px
+}
+
+.counter-number p {
+    margin-top: 5px
+}
+
+.homeBanner {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd
+}
+
+.counterborder::after {
+    width: 1px;
+    height: 90px;
+    background: #d4d4d4;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 3px
+}
+
+.before-imghome::before,
+.ulline li::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat
+}
+
+.before-imghome::before {
+    background-image: url(../webimages/images/newimg/rightbefore.webp);
+    background-size: contain;
+    right: -21px;
+    width: 736px;
+    height: 790px;
+    top: 0;
+    z-index: -1
+}
+
+.ulline li {
+    list-style: none;
+    font-size: 16px;
+    color: #000;
+    line-height: 2em
+}
+
+.ulline li::before {
+    color: #733cbc;
+    background-image: url(../webimages/images/newimg/check.svg);
+    background-position: center center;
+    left: -40px;
+    width: 50px;
+    height: 40px;
+    margin-top: 0
+}
+
+.counter-box.col-lg-3.__borderright {
+    margin: 0;
+    padding: 0
+}
+
+.NewBannerFy {
+    background: #00000079;
+    background: url(../webimages/images/banner/e-commerce-development.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 175px 0 50px;
+    display: flex;
+    align-items: center
+}
+
+
+.NewBannerFy_bannnerproject__lJu1C {
+    justify-content: space-between
+}
+
+.contactform1 {
+    background:var(--gredient-color6);
+    margin-left: auto;
+    z-index: 1;
+    border-radius: 20px;
+    border: 2px solid #93ceff;
+    box-shadow: 0 5px 15px rgba(29, 98, 245, .35)
+}
+
+.csforms .form-control,
+.csforms .textarea {
+    background-color: #d1d9ffcc;
+    border: unset;
+    width: 100%;
+    margin-bottom: 2%;
+    padding-left: 4%;
+    color: #000;
+    font-family: Montserrat, sans-serif
+}
+
+.csforms {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 29px
+}
+
+.csforms .textarea {
+    height: 100px;
+    border-radius: 10px;
+    line-height: 40px
+}
+
+.csforms .form-control {
+    font-size: 14px;
+    height: 45px;
+    border-radius: 10px
+}
+
+.csforms button {
+    background-color: #000;
+    width: 40%;
+    height: 40px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border: unset
+}
+
+.formIocns {
+    padding: 20px 0;
+    background-color: #000;
+    margin-top: 20px;
+    border-radius: 0 0 20px 20px;
+    border: 3px solid #3279c6
+}
+
+._locInner img {
+    text-align: center;
+    width: 30px
+}
+
+.locations_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+._locInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 8px
+}
+
+.homeBannerbtn .senc {
+    background: var(--gredient-color6) !important
+}
+
+section.section-gap.contactForm.bggrey {
+    padding-top: 80px
+}
+/* 
+.gredient-11,
+.gredient-22,
+.gredient-33,
+.gredient-44 {
+    animation: 5s linear infinite animateBg;
+    background-size: 300% 100%
+}
+
+.gredient-11 {
+    background-image: linear-gradient(145deg, #743bbc, #3379c6, #743bbc, #3379c6)
+}
+
+.gredient-22 {
+    background-image: linear-gradient(145deg, #743bbc, #3d0581, #743bbc, #3d0581)
+}
+
+.gredient-33,
+.gredient-44 {
+    background-image: linear-gradient(145deg, #01609c 0, #0b98c8 67%)
+}
+
+@keyframes animateBg {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 100% 0
+    }
+} */
