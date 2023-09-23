@@ -16,16 +16,16 @@
                             alt="logo" width="168" height="auto">
                     </div>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/best-seo-services-provider/">SEO</a></li>
-                        <li><a href="/website-design-agency/">Web Design</a>
+                        <li><a href="#package">Price</a></li>
+                        <li><a href="#portfolio-section">Portfolio</a></li>
+                        <!-- <li><a href="/website-design-agency/">Web Design</a>
                             <div class="">
                                 
                             </div>
                         </li>
                         <li><a href="/about-us/">About</a></li>
                         <li><a href="/seo-blogs/">Blogs</a></li>
-                        <li><a href="/contact-us/">Contact Us</a></li>
+                        <li><a href="/contact-us/">Contact Us</a></li> -->
                         <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ourWebModal"
                                 class="popBtn forMob">Get A Call</a></li>
                     </ul>

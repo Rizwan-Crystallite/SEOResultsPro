@@ -1,4 +1,5 @@
-<section id="portfolio-section" class="section-gap">
+<div id="portfolio-section">
+<section  class="section-gap">
     <div class="container-fluid remove-gap">
         <div class="row justify-content-center text-center">
             <div class="col-lg-9 portfolio-section">
@@ -53,3 +54,4 @@
     </div>
 
 </section>
+</div>

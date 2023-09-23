@@ -4,11 +4,8 @@
             <div class="col-lg-7">
                 <div>
                     <h4 class="__font18  text-white">Custom Website</h4>
-                    <h1 class="__font50 __fw700 text-white">We Help You To Grow Your
-                    Business Online</h1>
-                    <p class="__font16 __fw400 text-white">Discover the epitome of responsive web design prowess with
-                       SeoResultsPro premium <br> services, ensuring your website flawlessly.
-
+                    <h1 class="__font50 __fw700 text-white">Leading Website Design & Development Agency For The Best Digital Experience</h1>
+                    <p class="__font16 __fw400 text-white">Your website design should proudly represent your brand with our expert web design & development team, and convert visitors into loyal customers while boosting your critical metrics.
                     </p>
 
                     <div class="pb-3 pt-4 mx-md-0 mx-3 homeBannerbtn">

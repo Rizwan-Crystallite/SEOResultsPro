@@ -6,7 +6,7 @@
                     strategy <br> session with an
                     experienced <br> digital 
                     marketer valued at <br>
-                    <span class="fw-700 text-blue"> $300USD.</span>
+                    <span class="fw-700 text-blue"> $500USD.</span>
                 </h2>
                 <div class="w-70">
                 <a href="javascript:;" rel="noopener noreferrer" class="primary-btn order-cta">Get my free 30 minutes
@@ -37,6 +37,22 @@
                         <div class="form-group col-md-12 mb-4">
                             <label for="">Website*</label>
                             <input type="text" id="message" name="message" placeholder="Type Your Website"
+                                class="form-control textarea" required="">
+                        </div>
+                        <!-- custom form add -->
+                        <div class="form-group col-md-12 mb-4">
+                            <label for="">Business*</label>
+                            <input type="text" id="business" name="business" placeholder="Type Your business"
+                                class="form-control textarea" required="">
+                        </div>
+                        <div class="form-group col-md-12 mb-4">
+                            <label for="">Industry*</label>
+                            <input type="text" id="industry" name="industry" placeholder="Type Your Industry"
+                                class="form-control textarea" required="">
+                        </div>
+                        <div class="form-group col-md-12 mb-4">
+                            <label for="">Budget*</label>
+                            <input type="text" id="budget" name="budget" placeholder="Type Your Budget"
                                 class="form-control textarea" required="">
                         </div>
                     </div>

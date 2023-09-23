@@ -3,11 +3,7 @@
         <div class="row justify-content-center text-center pb-3 mt-4">
             <div class="col-md-10">
                 <h2 class="__fw800  __font40 text-center line-height-1 custom-color">
-                    Why Us? Because We Have The Magic Of Turning Challenges into Opportunities.
-                </h2>
-                <h4 class=" __fw700  __font24 text-center line-height-1 text-black">
-                    Yes. It’s just not a claim. It's a <span class="textprimary __fw900">PROMISE! </span>
-                </h4>
+                    Benefits Of Working With Us</h2>
             </div>
         </div>
         <div class="row justify-content-center align-items-center pt-3">
@@ -25,6 +21,9 @@
                     business profile. They mirror your business aesthetics in a way that promises to hook the audience
                     and convert them. So, get ready to take your business to the next level by witnessing unimaginable
                     customers coming to your doorstep!</p>
+                    <h4 class=" __fw700  __font24 text-left line-height-1 text-black">
+                    Yes. It’s just not a claim. It's a <span class="textprimary __fw900">PROMISE! </span>
+                </h4>
                 <div class="pt-1 relative">
                     <h3 class="__font38 __fw900  textgradient1 gr8">We have solutions in the form of… </h3>
                     <div class="row ml-sm-0 ml-1">

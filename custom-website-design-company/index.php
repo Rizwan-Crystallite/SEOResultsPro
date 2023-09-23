@@ -15,7 +15,9 @@ $bannercss = "banner.css";
         <?php include("../partialssection/port.php") ?>
         
         <?php include("../partialssection/build.php") ?>
+        
         <?php include("../partialssection/clientstestimonials1.php") ?>
+        <?php include("../partialssection/complete-branding.php") ?>
         <?php include("../partialssection/magicsection.php") ?>  
         <?php include("../partialssection/industries1.php") ?>
         <?php include("../partialssection/contactform.php") ?>
