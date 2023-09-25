@@ -10,7 +10,7 @@ function fetchJSONFile(a,i){var e=new XMLHttpRequest;e.onreadystatechange=functi
                             </div>
                         </div>
                     </div>
-                    `}),$("#grid-container").html(i)})})}fetchJSONFile("../webimages/js/tabs.json",function(a){a.map(({title:a,filter:i})=>{$("#appendButtons").append(`<button class="button" onclick="loadjson('${i}')">${a}</button>`)})}),fetchJSONFile("../webimages/js/real-estate.json",function(a){a.map(({images:a})=>{let i="";a.map(a=>{console.log(a),i+=`
+                    `}),$("#grid-container").html(i)})})}fetchJSONFile("../webimages/js/tabs.json",function(a){a.map(({title:a,filter:i})=>{$("#appendButtons").append(`<button class="button" onclick="loadjson('${i}')">${a}</button>`)})}),fetchJSONFile("../webimages/js/Airline.json",function(a){a.map(({images:a})=>{let i="";a.map(a=>{console.log(a),i+=`
                     <div class="beauty col-lg-4 mb-3">
                         <div class="frams">
                             <img src="${a}" id="portfolio1" class="img-fluid" alt="SeoResultsPro" width="416" height="600">

@@ -1,36 +1,51 @@
 [
     {
-        "filter": "real-estate",
-        "title": "Real Estate"
+        "filter": "Airline",
+        "title": "Airline"
     },
     {
-        "filter": "beauty",
-        "title": "Beauty"
-    },
-    
-    {
-        "filter": "cbd",
-        "title": "CBD"
+        "filter": "auto",
+        "title": "Automotive"
     },
     {
-        "filter": "education",
-        "title": "Eduction"
+        "filter": "Bakery",
+        "title": "Bakery"
     },
     {
-        "filter": "food",
-        "title": "Food"
+        "filter": "Beverage",
+        "title": "Beverage"
     },
     {
-        "filter": "health",
-        "title": "Health"
+        "filter": "Crypto",
+        "title": "Crypto"
     },
     {
-        "filter": "non-profit",
-        "title": "Non Profit"
+        "filter": "Donation",
+        "title": "Donation"
     },
     {
         "filter": "e-commerce",
         "title": "E-commerce"
-    }
-    
+    },
+  
+    {
+        "filter": "Fashion",
+        "title": "Fashion"
+    },
+    {
+        "filter": "Finance",
+        "title": "Finance"
+    },
+    {
+        "filter": "Entertainment",
+        "title": "Entertainment"
+    },
+    {
+        "filter": "real-estate",
+        "title": "Real Estate"
+    },
+    {
+        "filter": "mobileapp",
+        "title": "Mobile App"
+    } 
 ]

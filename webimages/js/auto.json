@@ -2,15 +2,14 @@
     {
         "images":[
             
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-1.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-2.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-3.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-4.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-5.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-6.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-7.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-8.svg",
-            "../webimages/images/potfolio/Portfolio-img/auto/auto-9.svg"
+            "../webimages/images/potfolio/Portfolio-img/auto/auto-1.png",
+            "../webimages/images/potfolio/Portfolio-img/auto/auto-2.png",
+            "../webimages/images/potfolio/Portfolio-img/auto/auto-33.jpg",
+            "../webimages/images/potfolio/Portfolio-img/auto/auto-4.png",
+            "../webimages/images/potfolio/Portfolio-img/auto/auto-5.jpg",
+            "../webimages/images/potfolio/Portfolio-img/auto/auto-6.png"
+         
+           
         ]
     }
 ]

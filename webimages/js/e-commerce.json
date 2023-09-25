@@ -1,15 +1,12 @@
 [
     {
         "images":[
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-1.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-2.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-3.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-4.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-5.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-6.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-7.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-8.webp",
-            "../webimages/images/potfolio/Portfolio-img/e-commerce/e-commerce-9.webp"      
+            "../webimages/images/potfolio/Portfolio-img/e-commerce/ecommerce-1.png",
+            "../webimages/images/potfolio/Portfolio-img/e-commerce/ecommerce-2.jpg",
+            "../webimages/images/potfolio/Portfolio-img/e-commerce/ecommerce-3.png",
+            "../webimages/images/potfolio/Portfolio-img/e-commerce/ecommerce-4.png",
+            "../webimages/images/potfolio/Portfolio-img/e-commerce/ecommerce-5.png",
+            "../webimages/images/potfolio/Portfolio-img/e-commerce/ecommerce-6.jpg"
         ]
     }
 ]
