@@ -2,7 +2,7 @@
 $title = "Establishing Consumer-Oriented E-Commerce Experiences";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/ecommerce-development-services/";
+$websiteUrl = "https://seoresultspro.com/ecommerce-development-services/";
 $bannercss = "banner.css";
 
 ?>

@@ -2,7 +2,7 @@
 $title = "Website Maintenance Services";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/website-maintenance-services/";
+$websiteUrl = "https://seoresultspro.com/website-maintenance-services/";
 $bannercss = "banner.css";
 $urlimg1 = "https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/230ffd7d-b525-46e9-95ff-25b834e90c00/public";
 ?>

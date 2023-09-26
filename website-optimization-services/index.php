@@ -2,7 +2,7 @@
 $title = "Winning Website Optimization Services";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/website-optimization-services/";
+$websiteUrl = "https://seoresultspro.com/website-optimization-services/";
 $bannercss = "banner.css";
 
 ?>

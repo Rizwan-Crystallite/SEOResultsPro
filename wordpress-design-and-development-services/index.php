@@ -2,7 +2,7 @@
 $title = "Wrodpress Design and Development Services";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/wordpress-design-and-development-services/";
+$websiteUrl = "https://seoresultspro.com/wordpress-design-and-development-services/";
 $bannercss = "banner.css";
 
 ?>
