@@ -105,7 +105,7 @@
 # Custom Error Pages Code Start Here
 
 ErrorDocument 500 "Sorry, We have A Problem."
-ErrorDocument 401 https://bitswits.co/404/
+ErrorDocument 401 https://seoresultspro.com/404/
 ErrorDocument 404 /404/
 
 # Custom Error Pages Code End Here
