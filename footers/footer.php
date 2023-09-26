@@ -105,85 +105,44 @@
 <!--<script type="application/ld+json" src="../js/socialmedia-pages-api-indexing.json"></script>-->
 <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script>
-    jQuery.event.special.touchstart = {
-        setup: function(e, t, s) {
-            this.addEventListener("touchstart", s, {
-                passive: !t.includes("noPreventDefault")
-            })
-        }
-    }, jQuery.event.special.touchmove = {
-        setup: function(e, t, s) {
-            this.addEventListener("touchmove", s, {
-                passive: !t.includes("noPreventDefault")
-            })
-        }
-    }, jQuery.event.special.wheel = {
-        setup: function(e, t, s) {
-            this.addEventListener("wheel", s, {
-                passive: !0
-            })
-        }
-    }, jQuery.event.special.mousewheel = {
-        setup: function(e, t, s) {
-            this.addEventListener("mousewheel", s, {
-                passive: !0
-            })
-        }
-    };
+   jQuery.event.special.touchstart={setup:function(e,t,s){this.addEventListener("touchstart",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.touchmove={setup:function(e,t,s){this.addEventListener("touchmove",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.wheel={setup:function(e,t,s){this.addEventListener("wheel",s,{passive:!0})}},jQuery.event.special.mousewheel={setup:function(e,t,s){this.addEventListener("mousewheel",s,{passive:!0})}};
 </script>
 <script src="../webimages/js/navbar.js"></script>
-<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="../webimages/js/custom.js"></script>
-<script src="../webimages/js/lightbox.js"></script>
+<script src="../public/app/zendesk-chat.js" async></script>
+<script id="script-loader"></script>
 <script src="../webimages/js/content.js"></script>
-<script src="../public/app/footer.js"></script>
-    <script src="../public/app/zendesk-chat.js" async></script>
-
-
+<span id="myFooter">
+ <!-- Footer content -->
+</span>
 <script>
-    lightbox.option({
-        'resizeDuration': 200,
-        'wrapAround': true
-    })
-    // var $items = $('.gallery a');
-    // $items.on('click', function(e) {
-    //     resourceLoader.makeSureIsLoaded('$.SimpleLightbox', function() {
-    //         SimpleLightbox.open({
-    //             $items: $items,
-    //             startAt: $items.index($(e.target)),
-    //             bindToItems: false,
-    //         });
-    //     });
-    // });
-    // var modal=document.getElementById("modal"),closeButton=document.getElementsByClassName("close")[0],links=document.getElementsByClassName("modal-link"),modalImage=document.getElementById("modal-image");function openModal(e){modal.style.display="block",modalImage.src=e}function closeModal(){modal.style.display="none"}Array.from(links).forEach(function(e){e.addEventListener("click",function(e){e.preventDefault(),openModal(this.href)})}),closeButton.addEventListener("click",closeModal),window.addEventListener("click",function(e){e.target==modal&&closeModal()});
+   var scriptsLoaded=!1;function loadScripts(){if(!scriptsLoaded){for(var i=[{src:"../webimages/js/custom.js",id:"customScript"},{src:"../webimages/js/lightbox.js",id:"lightboxScript"},{src:"../public/app/footer.js",id:"footerScript"}],s=0;s<i.length;s++){var t=i[s];if(!document.getElementById(t.id)){var o=document.createElement("script");o.src=t.src,o.id=t.id,document.body.appendChild(o)}}scriptsLoaded=!0}}$(document).on("mousemove touchmove",function(){loadScripts()});
 </script>
-<!--<script src="../webimages/js/portfolio.js"></script>-->
-<!-- <script src="../webimages/js/content.js"></script> -->
+<!-- <script src="../public/app/footer.js"></script> -->
 <script>
-    const myTimeout = setTimeout(myGreeting, 5e3);
-
-    function myGreeting() {
-        $.getScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"),
-            // $.getScript("/js/globle.js"),
-            // $.getScript("https://www.googletagmanager.com/gtag/js?id=AW-416950429"),
-            $.getScript("https://www.googletagmanager.com/gtag/js?id=G-YGKT3NW1GX",
-                // $.getScript("https://www.googletagmanager.com/gtag/js?id=G-YGKT3NW1GX",
-            )
-    }
-    jQuery(document).on('#lightboxOverlay', function(e, instance, slide) {
-        jQuery('body').css('overflow', "hidden")
-    });
-    jQuery(document).on('#lightboxOverlay', function(e, instance, slide) {
-        jQuery('body').removeClass('overflow', "hidden");
-    });
+      function appendScript(e,t=!1){let n=document.createElement("script");n.src=e,n.async=t,document.head.appendChild(n)}function appendGoogleScripts(){appendScript("https://www.googletagmanager.com/gtm.js?id=GTM-5FP9HZN",!0),appendScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138",!0);let e=document.createElement("script");e.innerHTML=`
+                function gtag() { dataLayer.push(arguments) }
+                window.dataLayer = window.dataLayer || [];
+                gtag("js", new Date);
+                gtag("config", "AW-11022581138");
+            `,document.head.appendChild(e);let t=document.createElement("script");t.innerHTML=`
+                gtag('event', 'conversion', { 'send_to': 'AW-11022581138/Cc6WCLP91oIYEJL7_Icp' });
+            `,document.head.appendChild(t)}function appendFacebookPixelScript(){let e=document.createElement("script");e.innerHTML=`
+                !function (e, t, n, a, c, o, s) { e.fbq || (c = e.fbq = function () { c.callMethod ? c.callMethod.apply(c, arguments) : c.queue.push(arguments) }, e._fbq || (e._fbq = c), c.push = c, c.loaded = !0, c.version = "2.0", c.queue = [], (o = t.createElement(n)).async = !0, o.src = a, (s = t.getElementsByTagName(n)[0]).parentNode.insertBefore(o, s)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"), fbq("init", "815377486247146"), fbq("track", "PageView");
+            `,document.head.appendChild(e)}document.addEventListener("mousemove",function(){appendGoogleScripts(),appendFacebookPixelScript()}),document.addEventListener("touchmove",function(){appendGoogleScripts(),appendFacebookPixelScript()});
+    </script>
+<!-- <script src="../webimages/js/custom.js"></script>
+<script src="../webimages/js/lightbox.js"></script>
+<script src="../public/app/footer.js"></script> -->
+<script>
+    lightbox.option({'resizeDuration': 200,'wrapAround': true})
 </script>
-<script defer>
-    // !function(e,r){var t,c,s,l;window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments))},c="script",fs=(t=document).getElementsByTagName(c)[0],s="https://sc.lfeeder.com/lftracker_v1_"+e+(r?"_"+r:"")+".js",(l=t.createElement(c)).src=s,l.async=1,fs.parentNode.insertBefore(l,fs)}("ywVkO4XVeVw8Z6Bj");
+<script>
+   const myTimeout=setTimeout(myGreeting,5e3);function myGreeting(){$.getScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js");}jQuery(document).on("#lightboxOverlay",function(t,o,e){jQuery("body").css("overflow","hidden")}),jQuery(document).on("#lightboxOverlay",function(t,o,e){jQuery("body").removeClass("overflow","hidden")});
 </script>
 </body>
-
 </html>
