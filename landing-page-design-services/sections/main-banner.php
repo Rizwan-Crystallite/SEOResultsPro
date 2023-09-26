@@ -99,14 +99,14 @@
                             <div class="_locInner">
                                 <img src="../webimages/images/icon2.webp" class="img-fluid mb-2" />
                                 <div>
-                                    <p class="__font10 __fw700 mb-0 text-white">ASIA</p>
+                                    <p class="__font10 __fw700 mb-0 text-white">MIDDLE EAST</p>
                                     <!-- <a  class="__font10 font-regular text-white" href="tel:1-844-400-0025">+1-844-400-0025</a> -->
                                 </div>
                             </div>
                             <div class="_locInner">
                                 <img src="../webimages/images/icon4.webp" class="img-fluid" />
                                 <div>
-                                    <p class="__font10 __fw700 mb-0 text-white">UAE</p>
+                                    <p class="__font10 __fw700 mb-0 text-white">ASIA</p>
                                     <!-- <a  class="__font10 font-regular text-white" href="/">+1 833 500 6007</a> -->
                                 </div>
                             </div>
