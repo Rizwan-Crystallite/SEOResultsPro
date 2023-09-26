@@ -1,55 +1,59 @@
 <section class="NewBannerFy">
-    <div class="mx-xl-5 px-xxl-5 pe-xl-4 container-fluid">
+    <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-7">
                 <div>
                     <h4 class="__font18  text-white">Custom Website</h4>
                     <h1 class="__font50 __fw700 text-white">We Help You To Grow Your
-                    Business Online</h1>
+                        Business Online</h1>
                     <p class="__font16 __fw400 text-white">Discover the epitome of responsive web design prowess with
-                       SeoResultsPro's premium <br> services, ensuring your website flawlessly.
+                        SeoResultsPro's premium <br> services, ensuring your website flawlessly.
 
                     </p>
 
                     <div class="pb-3 pt-4 mx-md-0 mx-3 homeBannerbtn">
-                        <a href="tel:(833)-800-0083" class="me-3 btn secondary-btn fw-700" rel="noopener noreferrer">Book A Call</a>
-                        <a href="javascript:$zopim.livechat.window.show();" rel="noopener noreferrer" class="ml-3 btn secondary-btn fw-700 senc">Live Chat</a>
+                        <a href="tel:(833)-800-0083" class="me-3 btn secondary-btn fw-700"
+                            rel="noopener noreferrer">Book A Call</a>
+                        <a href="javascript:$zopim.livechat.window.show();" rel="noopener noreferrer"
+                            class="ml-3 btn secondary-btn fw-700 senc">Live Chat</a>
 
                     </div>
 
                     <div class="counter-row d-flex align-items-center mt-4">
-                            <div class="counter-box">
-                                <div class="counter-number d-flex align-items-center justify-content-start">
-                                    <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/9922d36b-f8e8-40d7-19a2-4bb84f85bd00/public" width="43" height="41" alt="working_logo">
-                                    <span><span class="counter">1500</span>+</span>
-                                </div>
-                                <p>CLIENTS WORKING WITH US GLOBALLY</p>
+                        <div class="counter-box">
+                            <div class="counter-number d-flex align-items-center justify-content-start">
+                                <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/9922d36b-f8e8-40d7-19a2-4bb84f85bd00/public"
+                                    width="43" height="41" alt="working_logo">
+                                <span><span class="counter">1500</span>+</span>
                             </div>
-                            <div class="counter-box">
-                                <div class="counter-number d-flex align-items-center justify-content-start">
-                                    <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/da4e2bd1-ef46-4fe5-a0a3-ddea34b84200/public" width="26" height="49" alt="leads_logo">
-                                    <span><span class="counter">2</span>MIL+</span>
-                                </div>
-                                <p>QUALIFIED LEADS DELIVERED</p>
-                            </div>
-                            <div class="counter-box">
-                                <div class="counter-number d-flex align-items-center justify-content-start">
-                                    <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/784b2474-3415-436b-8fe9-cabe04e57300/public" width="57" height="49" alt="client_logo">
-                                    <span><span class="counter">93</span>%</span>
-                                </div>
-                                <p>CLIENT RETENTION RATE</p>
-                            </div>
+                            <p>CLIENTS WORKING WITH US GLOBALLY</p>
                         </div>
+                        <div class="counter-box">
+                            <div class="counter-number d-flex align-items-center justify-content-start">
+                                <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/da4e2bd1-ef46-4fe5-a0a3-ddea34b84200/public"
+                                    width="26" height="49" alt="leads_logo">
+                                <span><span class="counter">2</span>MIL+</span>
+                            </div>
+                            <p>QUALIFIED LEADS DELIVERED</p>
+                        </div>
+                        <div class="counter-box">
+                            <div class="counter-number d-flex align-items-center justify-content-start">
+                                <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/784b2474-3415-436b-8fe9-cabe04e57300/public"
+                                    width="57" height="49" alt="client_logo">
+                                <span><span class="counter">93</span>%</span>
+                            </div>
+                            <p>CLIENT RETENTION RATE</p>
+                        </div>
+                    </div>
                     <div class="mb-4 mt-3">
                         <div class="partners-logo">
-                            <img src="../webimages/images/amazon.svg" alt="amazon" width="130px" height="auto">
-                            <img src="../webimages/images/google.svg" alt="google" width="130px" height="auto">
-                            <img src="../webimages/images/microsoft.svg" alt="microsoft" width="130px" height="auto">
-                            <img src="../webimages/images/google-parner.svg" alt="google-parner" width="130px" height="auto">
-                            <img src="../webimages/images/fb.svg" alt="facebook" width="130px" height="auto">
+                            <img src="../webimages/images/amazon.svg" alt="amazon" width="120" height="auto">
+                            <img src="../webimages/images/google.svg" alt="google" width="120" height="auto">
+                            <img src="../webimages/images/microsoft.svg" alt="microsoft" width="120" height="auto">
+                            <img src="../webimages/images/google-parner.svg" alt="google-parner" width="120"
+                                height="auto">
+                            <img src="../webimages/images/fb.svg" alt="facebook" width="120" height="auto">
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -78,7 +82,9 @@
                             </div>
                         </div>
                         <div class="mt-3 d-flex justify-content-between">
-                           <p class="__font12 text-white">We take your privacy seriously. <br> Read our <span class="__fw600">Privacy Notice.</span> </p> <button name="saves" type="submit" class="ml-3 btn secondary-btn fw-700">Submit</button>
+                            <p class="__font12 text-white">We take your privacy seriously. <br> Read our <span
+                                    class="__fw600">Privacy Notice.</span> </p> <button name="saves" type="submit"
+                                class="ml-3 btn secondary-btn fw-700">Submit</button>
                         </div>
                     </form>
                     <!-- Form Icons -->
@@ -86,24 +92,24 @@
                         <p class="__font16 __fw700  text-white text-center">OUR OFFICES</p>
                         <div class="locations_icon">
                             <div class="_locInner">
-                                <img src="../webimages/images/icon1.webp" width="35" height="48" class="img-fluid"/>
+                                <img src="../webimages/images/icon1.webp" width="35" height="48" class="img-fluid" />
                                 <div>
                                     <p class="__font10 __fw700 mb-0 text-white">USA</p>
-                                    <a class="__font10 font-regular text-white" href="tel:(833)-800-0083">+(833)-800-0083</a>
+                                    <!-- <a class="__font10 font-regular text-white" href="tel:(833)-800-0083">+(833)-800-0083</a> -->
                                 </div>
                             </div>
                             <div class="_locInner">
-                                <img src="../webimages/images/icon2.webp" class="img-fluid mb-2"/>
+                                <img src="../webimages/images/icon2.webp" class="img-fluid mb-2" />
                                 <div>
-                                    <p class="__font10 __fw700 mb-0 text-white">USA</p><a
-                                        class="__font10 font-regular text-white" href="tel:1-844-400-0025">+1-844-400-0025</a>
+                                    <p class="__font10 __fw700 mb-0 text-white">MIDDLE EAST</p>
+                                    <!-- <a  class="__font10 font-regular text-white" href="tel:1-844-400-0025">+1-844-400-0025</a> -->
                                 </div>
                             </div>
                             <div class="_locInner">
-                                <img src="../webimages/images/icon4.webp" class="img-fluid"/>
+                                <img src="../webimages/images/icon4.webp" class="img-fluid" />
                                 <div>
-                                    <p class="__font10 __fw700 mb-0 text-white">USA</p><a
-                                        class="__font10 font-regular text-white" href="/">+1 833 500 6007</a>
+                                    <p class="__font10 __fw700 mb-0 text-white">ASIA</p>
+                                    <!-- <a  class="__font10 font-regular text-white" href="/">+1 833 500 6007</a> -->
                                 </div>
                             </div>
                         </div>
@@ -149,15 +155,16 @@
             </div>
             <div>
                 <div class="box">
-                    <img src="../webimages/images/newimg/appfutura.svg" alt="photographers-icon" width="100" height="100">
+                    <img src="../webimages/images/newimg/appfutura.svg" alt="photographers-icon" width="100"
+                        height="100">
                 </div>
             </div>
             <div>
                 <div class="box">
-                    <img src="../webimages/images/newimg/clutch.svg" alt="bathroom-remodel-icon" width="100" height="100">
+                    <img src="../webimages/images/newimg/clutch.svg" alt="bathroom-remodel-icon" width="100"
+                        height="100">
                 </div>
             </div>
-          
 
         </div>
     </div>

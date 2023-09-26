@@ -1,5 +1,5 @@
 <section class="NewBannerFy">
-    <div class="mx-xl-5 px-xxl-5 pe-xl-4 container-fluid">
+    <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-7">
                 <div>
@@ -38,16 +38,15 @@
                                 <p>CLIENT RETENTION RATE</p>
                             </div>
                         </div>
-                    <div class="mb-4 mt-3">
+                        <div class="mb-4 mt-3">
                         <div class="partners-logo">
-                            <img src="../webimages/images/amazon.svg" alt="amazon" width="130px" height="auto">
-                            <img src="../webimages/images/google.svg" alt="google" width="130px" height="auto">
-                            <img src="../webimages/images/microsoft.svg" alt="microsoft" width="130px" height="auto">
-                            <img src="../webimages/images/google-parner.svg" alt="google-parner" width="130px" height="auto">
-                            <img src="../webimages/images/fb.svg" alt="facebook" width="130px" height="auto">
+                            <img src="../webimages/images/amazon.svg" alt="amazon" width="120" height="auto">
+                            <img src="../webimages/images/google.svg" alt="google" width="120" height="auto">
+                            <img src="../webimages/images/microsoft.svg" alt="microsoft" width="120" height="auto">
+                            <img src="../webimages/images/google-parner.svg" alt="google-parner" width="120"
+                                height="auto">
+                            <img src="../webimages/images/fb.svg" alt="facebook" width="120" height="auto">
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -76,7 +75,9 @@
                             </div>
                         </div>
                         <div class="mt-3 d-flex justify-content-between">
-                           <p class="__font12 text-white">We take your privacy seriously. <br> Read our <span class="__fw600">Privacy Notice.</span> </p> <button name="saves" type="submit" class="ml-3 btn secondary-btn fw-700">Submit</button>
+                            <p class="__font12 text-white">We take your privacy seriously. <br> Read our <span
+                                    class="__fw600">Privacy Notice.</span> </p> <button name="saves" type="submit"
+                                class="ml-3 btn secondary-btn fw-700">Submit</button>
                         </div>
                     </form>
                     <!-- Form Icons -->
@@ -84,24 +85,24 @@
                         <p class="__font16 __fw700  text-white text-center">OUR OFFICES</p>
                         <div class="locations_icon">
                             <div class="_locInner">
-                                <img src="../webimages/images/icon1.webp" width="35" height="48" class="img-fluid"/>
+                                <img src="../webimages/images/icon1.webp" width="35" height="48" class="img-fluid" />
                                 <div>
                                     <p class="__font10 __fw700 mb-0 text-white">USA</p>
-                                    <a class="__font10 font-regular text-white" href="tel:(717)-400-0010">+(717)-400-0010</a>
+                                    <!-- <a class="__font10 font-regular text-white" href="tel:(833)-800-0083">+(833)-800-0083</a> -->
                                 </div>
                             </div>
                             <div class="_locInner">
-                                <img src="../webimages/images/icon2.webp" class="img-fluid mb-2"/>
+                                <img src="../webimages/images/icon2.webp" class="img-fluid mb-2" />
                                 <div>
-                                    <p class="__font10 __fw700 mb-0 text-white">USA</p><a
-                                        class="__font10 font-regular text-white" href="tel:1-844-400-0025">+1-844-400-0025</a>
+                                    <p class="__font10 __fw700 mb-0 text-white">MIDDLE EAST</p>
+                                    <!-- <a  class="__font10 font-regular text-white" href="tel:1-844-400-0025">+1-844-400-0025</a> -->
                                 </div>
                             </div>
                             <div class="_locInner">
-                                <img src="../webimages/images/icon4.webp" class="img-fluid"/>
+                                <img src="../webimages/images/icon4.webp" class="img-fluid" />
                                 <div>
-                                    <p class="__font10 __fw700 mb-0 text-white">USA</p><a
-                                        class="__font10 font-regular text-white" href="/">+1 833 500 6007</a>
+                                    <p class="__font10 __fw700 mb-0 text-white">ASIA</p>
+                                    <!-- <a  class="__font10 font-regular text-white" href="/">+1 833 500 6007</a> -->
                                 </div>
                             </div>
                         </div>
@@ -114,49 +115,50 @@
 
 <section class="homeBanner">
     <div class="container justify-content-center align-items-center">
-            <div class="topslider1">
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/top1.svg" alt="automotive-icon" width="100" height="100" >
-                    </div>
+        <div class="topslider1">
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/top1.svg" alt="automotive-icon" width="100" height="100">
                 </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/global.svg" alt="finance-icon" width="100" height="100" >
-                    </div>
-                </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/td-top.svg" alt="pest-control-icon" width="100" height="100" >
-                    </div>
-                </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/menifiest.svg" alt="bail-bonds-icon" width="100" height="100" >
-                    </div>
-                </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/workplace.svg" alt="movers-icon" width="100" height="100" >
-                    </div>
-                </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/wing.svg" alt="florist-icon" width="100" height="100" >
-                    </div>
-                </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/appfutura.svg" alt="photographers-icon" width="100" height="100" >
-                    </div>
-                </div>
-                <div>
-                    <div class="box">
-                        <img src="../webimages/images/newimg/clutch.svg" alt="bathroom-remodel-icon" width="100" height="100" >
-                    </div>
-                </div>
-            
-                   
             </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/global.svg" alt="finance-icon" width="100" height="100">
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/td-top.svg" alt="pest-control-icon" width="100" height="100">
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/menifiest.svg" alt="bail-bonds-icon" width="100" height="100">
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/workplace.svg" alt="movers-icon" width="100" height="100">
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/wing.svg" alt="florist-icon" width="100" height="100">
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/appfutura.svg" alt="photographers-icon" width="100"
+                        height="100">
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <img src="../webimages/images/newimg/clutch.svg" alt="bathroom-remodel-icon" width="100"
+                        height="100">
+                </div>
+            </div>
+
         </div>
+    </div>
 </section>

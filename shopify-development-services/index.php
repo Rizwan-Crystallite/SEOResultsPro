@@ -2,7 +2,7 @@
 $title = "Best SEO Services Provider Company to Help You Succeed Online";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/shopify-development-services/";
+$websiteUrl = "https://seoresultspro.com/shopify-development-services/";
 $bannercss = "banner.css";
 
 ?>

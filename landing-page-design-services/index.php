@@ -2,7 +2,7 @@
 $title = "Landing Page Design Services";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/landing-page-design-services/";
+$websiteUrl = "https://seoresultspro.com/landing-page-design-services/";
 $bannercss = "banner.css";
 
 ?>

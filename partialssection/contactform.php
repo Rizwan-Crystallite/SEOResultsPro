@@ -36,7 +36,7 @@
 
                         <div class="form-group col-md-12 mb-4">
                             <label for="">Website*</label>
-                            <input type="text" id="message" name="message" placeholder="Type Your Website"
+                            <input type="text" id="comments" name="comments" placeholder="Type Your Website"
                                 class="form-control textarea" required="">
                         </div>
                         <!-- custom form add -->

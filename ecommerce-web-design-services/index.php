@@ -2,7 +2,7 @@
 $title = "E-Commerce Web Design Servcies";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/ecommerce-web-design-services/";
+$websiteUrl = "https://seoresultspro.com/ecommerce-web-design-services/";
 $bannercss = "banner.css";
 
 ?>

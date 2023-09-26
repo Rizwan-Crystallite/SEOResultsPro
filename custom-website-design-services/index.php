@@ -2,7 +2,7 @@
 $title = "Custom Website Design Services";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/custom-website-design-services/";
+$websiteUrl = "https://seoresultspro.com/custom-website-design-services/";
 $bannercss = "banner.css";
 
 ?>

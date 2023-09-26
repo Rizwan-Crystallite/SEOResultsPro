@@ -2,7 +2,7 @@
 $title = "Offering Customized Magento Development Services";
 $description = "Best SEO Services Provider Company that helps businesses win the search game. Call our top premium SEO specialist agency experts now for online success.";
 $keywords = "";
-$websiteUrl = "/magento-development-services/";
+$websiteUrl = "https://seoresultspro.com/magento-development-services/";
 $bannercss = "banner.css";
 
 ?>
