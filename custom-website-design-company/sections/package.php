@@ -75,7 +75,7 @@
                             <div class="">
                                 <p class="text-white line-height-1 __font18">Startup Package</p>
                                 <h5 class="line-through text-red line-height-1">$1294</h5>
-                                <h4 class="text-white __font40 __fw900 line-height-1">$399</h4>
+                                <h4 class="text-white __font40 __fw900 line-height-1">$599</h4>
                             </div>
 
                             <div class=" text-right">
@@ -131,7 +131,7 @@
                             <div class="">
                                 <p class="text-white line-height-1 __font18">Professional Package</p>
                                 <h5 class="line-through text-red line-height-1">$1694</h5>
-                                <h4 class="text-white __font40 __fw900 line-height-1">$649</h4>
+                                <h4 class="text-white __font40 __fw900 line-height-1">$849</h4>
                             </div>
 
                             <div class="text-right">
@@ -323,7 +323,7 @@
                         <div class="d-flex justify-content-between">
                             <div class="w-50">
                                 <p class="text-white line-height-1 __font18">Business Package</p>
-                                <h5 class="line-through text-red line-height-1">$4999</h5>
+                                <h5 class="line-through text-red line-height-1">$5999</h5>
                                 <h4 class="text-white __font40 __fw800 line-height-1">$3294</h4>
                             </div>
 
@@ -403,12 +403,12 @@
         <div class="single-item-mobile d-block d-lg-none">
             <div>
             <div class="card pt-2 relative w-100 box-shadow-h gredient-22">
-                    <div class="card-body">
+            <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <div class="">
                                 <p class="text-white line-height-1 __font18">Basic Package</p>
-                                <h5 class="line-through text-red line-height-1">$749</h5>
-                                <h4 class="text-white __font40 __fw900 line-height-1">$249</h4>
+                                <h5 class="line-through text-red line-height-1">$549</h5>
+                                <h4 class="text-white __font40 __fw900 line-height-1">$199</h4>
                             </div>
 
                             <div class=" text-right">
@@ -455,12 +455,12 @@
             </div>
             <div>
             <div class="card pt-2 relative w-100 box-shadow-h gredient-11">
-                    <div class="card-body">
+            <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <div class="">
                                 <p class="text-white line-height-1 __font18">Startup Package</p>
                                 <h5 class="line-through text-red line-height-1">$1294</h5>
-                                <h4 class="text-white __font40 __fw900 line-height-1">$399</h4>
+                                <h4 class="text-white __font40 __fw900 line-height-1">$599</h4>
                             </div>
 
                             <div class=" text-right">
@@ -511,12 +511,12 @@
             </div>
             <div>
             <div class="card pt-2 relative w-100 box-shadow-h gredient-22">
-                    <div class="card-body">
+            <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <div class="">
                                 <p class="text-white line-height-1 __font18">Professional Package</p>
                                 <h5 class="line-through text-red line-height-1">$1694</h5>
-                                <h4 class="text-white __font40 __fw900 line-height-1">$649</h4>
+                                <h4 class="text-white __font40 __fw900 line-height-1">$849</h4>
                             </div>
 
                             <div class="text-right">
@@ -566,7 +566,7 @@
             </div>
             <div>
             <div class="card pt-2 relative w-100 box-shadow-h gredient-11">
-                    <div class="card-body">
+            <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <div class="">
                                 <p class="text-white line-height-1 __font18">Elite Package</p>
@@ -634,7 +634,7 @@
             </div>
             <div>
             <div class="card pt-2 relative w-100 box-shadow-h gredient-22">
-                    <div class="card-body">
+            <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <div class="w-50">
                                 <p class="text-white line-height-1 font-18">Corporate Package</p>
@@ -702,11 +702,11 @@
             </div>
             <div>
             <div class="card pt-2 relative w-100 box-shadow-h gredient-11">
-                    <div class="card-body">
+            <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <div class="w-50">
                                 <p class="text-white line-height-1 __font18">Business Package</p>
-                                <h5 class="line-through text-red line-height-1">$4999</h5>
+                                <h5 class="line-through text-red line-height-1">$5999</h5>
                                 <h4 class="text-white __font40 __fw800 line-height-1">$3294</h4>
                             </div>
 
