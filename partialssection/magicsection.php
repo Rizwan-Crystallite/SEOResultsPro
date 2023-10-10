@@ -6,12 +6,12 @@
                     Benefits Of Working With Us</h2>
             </div>
         </div>
-        <div class="row justify-content-center text-justify align-items-center pt-3">
+        <div class="row justify-content-center text-justify align-items-center pt-3 magicsection">
             <div class="col-md-7">
-                <p>Today, having been in the industry for many years, our company enjoys a flawless reputation for
+                <p class="text-justify">Today, having been in the industry for many years, our company enjoys a flawless reputation for
                     proposing growth-focused and result-driven exhibitions of top-notch web design services. Over the
                     years, we have mastered the craft of offering unrivaled design experiences across the globe. </p>
-                <p>It is no surprise that to thrive and survive in the internet-dominant era, a website presence is
+                <p class="text-justify">It is no surprise that to thrive and survive in the internet-dominant era, a website presence is
                     instrumental. But just having it doesn’t guarantee your survival in the highly competitive business
                     landscape. Just like human beings need food to NURTURE, websites need makeovers to CONVERT! </p>
                 <p>Believe us, your website is good for nothing if it falls short of meeting the expectations of your

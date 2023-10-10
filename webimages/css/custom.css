@@ -4236,7 +4236,9 @@ li {
         background-position: 100% 0
     } */
 }
-
+.magicsection p{
+    text-align: justify;
+}
 .primary-pop {
     display: inline-block;
     font-size: 16px;
