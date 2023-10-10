@@ -7,10 +7,11 @@
     $date = date("l jS \of F Y h:i:s A");
 	$pageURL=$_POST['pageURL'];
 	$clientIP=$_POST['ip'];
+
 	
 	$params = array();
     parse_str($_POST['form'], $params);
-
+	$form_name = $params['hiddenform'];
 
     $api_url = 'https://sheetdb.io/api/v1/kjmfs3bnx8g0c';
 
@@ -20,11 +21,14 @@
 		'number' => $params['phone'],
 		'email' => $params['email'],
 		'comments' => $params['comments'],
-		'date' => $date,
-		'pageURL' => $api_url,
-		'ip' => $clientIP
+		'ip' => $clientIP,
+		'pageurl' => $pageURL,
+		'formName' => $form_name,
+		'jsonData' => json_encode($params),
+		'created_date' => $date,
 	);
 
+    print_r($data);
 
 	// Initialize cURL session
 	$ch = curl_init($api_url);
@@ -45,11 +49,17 @@
 	// Close cURL session
 	curl_close($ch);
 
-	// Display the API response
-	echo $response;
 	
-
-	$html="<table><tr><td>Name</td><td>".$params['name']."</td></tr><tr><td>Email</td><td>".$params['email']."</td></tr><tr><td>Phone</td><td>	".$params['phone']."</td></tr><tr><td>message</td><td>".$params['comments']."</td></tr><tr><td>page URL</td><td>$pageURL</td></tr><tr><td>IP</td><td>$clientIP</td></tr></table>";
+	if($params['name'] == ""){
+	    $name = $params['fname'];
+	}else{
+	     $name = $params['name'];
+	}
+	
+	
+    
+	$html="<table><tr><td>Name</td><td>".$name."</td></tr><tr><td>Email</td><td>".$params['email']."</td></tr><tr><td>Phone</td><td>	".$params['phone']."</td></tr><tr><td>message</td><td>".$params['comments']."</td></tr><tr><td>page URL</td><td>$pageURL</td></tr><tr><td>IP</td><td>$clientIP</td></tr>
+	<tr><td>FORM NAME </td><td>$form_name</td></tr></table>";
 	
 	
 

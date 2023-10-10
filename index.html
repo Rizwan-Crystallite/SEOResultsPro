@@ -249,11 +249,11 @@
         <div class="container">
             <h2 class="gradient-text-custom5 text-center font-50 fw-700 mb-5">Get A Free SEO Audit</h2>
             <div class="conctctBnrFrm seo" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="500">
-                <form id="SEOAuditForm" role="form"
+                <form id="SEOAuditForm" role="form" 
                     class="d-flex flex-wrap flex-lg-row flex-column gap-2 justify-content-lg-start justify-content-center align-items-center">
+                    <input type="hidden" name="hiddenform" id="hiddenform" value="Get A Free SEO Audit (Home) Top"  />
                     <div class="input-group">
-                        <input name="name" id="name" type="text" class="form-control w-100" placeholder="Full Name"
-                            required />
+                        <input name="name" id="name" type="text" class="form-control w-100" placeholder="Full Name"  required />
                     </div>
                     <div class="input-group">
                         <input type="phone" minlength="7" maxlength="15" id="phone" name="phone"
@@ -709,6 +709,7 @@
                             <h3 class="font-30 text-l-black font-primary fw-600 text-uppercase mb-4">Get in touch</h3>
                             <form id="leadForm" role="form" data-aos="fade-up" data-aos-duration="500"
                                 data-aos-easing="linear">
+                          <input type="hidden" name="hiddenform" id="hiddenform" value="Get in touch (Home Bottom)" />
                                 <div class="input-group mb-lg-5 mb-3">
                                     <input name="name" id="name" type="text" class="form-control"
                                         placeholder="Your Full Name" required />
@@ -764,6 +765,8 @@
                                                     <div class="col-lg-10">
                                                         <div class="form-popup mt-4">
                                                             <form id="leadPopupForm" class="popup-form">
+
+                                                                <input type="hidden" name="hiddenform" id="hiddenform" value="Get in touch Popup"  />
                                                                 <div class="row">
                                                                     <div class="col-lg-6">
                                                                         <div class="input-group mb-3">
@@ -772,14 +775,20 @@
                                                                                 required />
                                                                         </div>
                                                                         <div class="input-group mb-lg-0 mb-3">
-                                                                            <input type="phone" minlength="7"
-                                                                                maxlength="15" id="phone" name="phone"
+                                                                            <input type="phone" minlength="7" maxlength="15" id="phone" name="phone"
                                                                                 onkeypress="return /[0-9]/i.test(event.key)"
                                                                                 class="w-100" placeholder="Phone Number"
                                                                                 required />
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-6">
+                                                                        <div class="input-group mb-3">
+                                                                            <input name="email" id="email" type="text"
+                                                                                placeholder="Enter Email" class="w-100"
+                                                                                required />
+                                                                        </div>
+                                                                        <div class="input-group mb-lg-0 mb-3">
+                                                                        
                                                                         <textarea name="comments" id="comments"
                                                                             placeholder="Let Us know Time And Date To Call You."
                                                                             cols="30" rows="3" required></textarea>
