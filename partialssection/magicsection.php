@@ -6,7 +6,7 @@
                     Benefits Of Working With Us</h2>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center pt-3">
+        <div class="row justify-content-center text-justify align-items-center pt-3">
             <div class="col-md-7">
                 <p>Today, having been in the industry for many years, our company enjoys a flawless reputation for
                     proposing growth-focused and result-driven exhibitions of top-notch web design services. Over the
@@ -21,7 +21,7 @@
                     business profile. They mirror your business aesthetics in a way that promises to hook the audience
                     and convert them. So, get ready to take your business to the next level by witnessing unimaginable
                     customers coming to your doorstep!</p>
-                    <h4 class=" __fw700  __font24 text-left line-height-1 text-black">
+                    <h4 class=" __fw700  __font24 text-left line-height-1 text-black mt-5 mb-5">
                     Yes. It’s just not a claim. It's a <span class="textprimary __fw900">PROMISE! </span>
                 </h4>
                 <div class="pt-1 relative">
