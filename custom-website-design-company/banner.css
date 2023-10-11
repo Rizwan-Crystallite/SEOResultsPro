@@ -209,3 +209,43 @@ section.section-gap.contactForm.bggrey {
 header nav .nav--menu ul li a {
     font-size: 18px !important;
 }
+
+.portfolioTabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+.package-wrapper {
+    background-color: #fafeff;
+    border-radius: 16px 16px 16px 16px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 0;
+    transition: box-shadow 300ms ease 0ms, box-shadow 300ms ease 0ms, box-shadow 300ms ease 0ms, background-color 300ms ease 0ms, background-image 300ms ease 0ms;
+    transition: all .2s ease-in-out;
+    border: 1px dashed #c5c5c5;
+    position: relative;
+    padding: 30px;
+}
+.package11 .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 50px;
+    list-style: none;
+    justify-content: center;
+    padding: 10px 30px;
+}
+.package11 .nav-pills .nav-link{
+    border: 2px solid #733cbc;
+    margin: 2px;
+    border-radius: 20px;
+    color: #000;
+}
+.package11 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background: #733cbc;
+    /* background: linear-gradient(to right,#2f7cc7 0,#733cbc 100%); */
+    border-radius: 20px;
+}

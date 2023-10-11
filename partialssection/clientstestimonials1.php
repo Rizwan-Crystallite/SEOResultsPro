@@ -73,7 +73,7 @@
                     </div>
                     <div class="wrapper-11 relative">
                         <i class="fa-solid fa-location-dot"></i>
-                        <div class="tooltip">
+                        <div class="tooltip showtooltip">
                             <p>I recently hired this company for their website design services and couldn't be more pleased with the end result!
                                     The overall design of my website looks great,
                                     <!--and it is also very user-friendly. Highly recommend this company!-->

@@ -4267,3 +4267,14 @@ li {
 .text-l-purple {
     color: #9750b2
 }
+
+/* .showtooltip {
+    display: none;
+}
+
+.tooltip:hover .showtooltip {
+    display: block;
+} */
+
+.showtooltip{opacity:1}
+.show-tooltip{display:none;background:#316995;color:#fff;padding:12px 20px;border-radius:10px;text-align:left;position:absolute;width:330px}
