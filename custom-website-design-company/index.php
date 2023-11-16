@@ -20,7 +20,7 @@ $bannercss = "banner.css";
         <?php include("../partialssection/complete-branding.php") ?>
         <?php include("../partialssection/magicsection.php") ?>  
         <?php include("../partialssection/industries1.php") ?>
-        <?php include("../partialssection/contactform.php") ?>
+        <?php include("../partialssection/contactform1.php") ?>
         <?php include("sections/faqs.php") ?>
     </main>
 <?php include("../footers/footer.php") ?>
