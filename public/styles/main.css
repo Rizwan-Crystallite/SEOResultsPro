@@ -3640,8 +3640,8 @@ button#butact3u1 {
     font-weight: 700;
     text-transform: uppercase;
     width: 400px;
-    height: 20px;
-    line-height: 20px;
+    /* height: 20px; */
+    /* line-height: 20px; */
     text-align: center;
 }
 
