@@ -137,9 +137,9 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
-    width: 60%;
+    width: 58%;
     height: 70%;
-    background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/fd65bb10-e0a3-480d-5c94-857010408d00/public);
+    background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/38600028-505f-42ab-2caa-0a61a9ac0100/public);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,26 +159,17 @@
     color: #fff;
 }
 #customPopup1 h2{
-    font-size: 37px;
     font-weight: 900;
-    background: -webkit-linear-gradient(83deg, #597bea 0, #a04aaa 63%);
-    background: linear-gradient(209deg, #597bea 0, #a04aaa 63%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-size: 45px;
     line-height: 50px;
-    text-align: left;
+    text-align: center;
     font-family: Arial;
     width:100%;
     text-transform: uppercase;
 }
-#customPopup1 h4{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-    font-weight: 900;
-    font-family: Arial;
-    text-transform: uppercase;
+#customPopup1 h2 span{
+    color: #04c88c;
 }
 .nycolor{
     color: #a04aaa;
@@ -186,7 +177,7 @@
 .Popupforms11 input{
     border: 2px solid #dcdcdc;
     border-radius: 0;
-    height: 40px;
+    height: 45px;
     padding: 8px;
     font-size: 14px;
     color: #000;
@@ -195,38 +186,44 @@
 .Popupforms11{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 .Popupforms11 input{
     margin-right: 5px;
-    width: 44%;
+    margin: 5px auto;
+    width: 32%;
 }
-#customPopup1 P{
-    font-size: 12px;
-    text-align: left;
+#customPopup1 p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
     margin-top: 20px;
     font-family: Arial;
     text-transform: uppercase;
 }
-#customPopup1 button{
-    margin-right: 50px;
-    width: 100%;
-    margin-top: 10px;
-    background: linear-gradient(45deg,#a04aaa 0,#597bea 100%);
-    padding: 12px 30px;
-    font-size: 18px;
-    font-weight: 900;
-    border: 0px;
-    color: #fff;
-    border-radius: 20px;
-    text-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.402);
-    transition: all 1s ease;
-    box-shadow: 0px 0px 8px 1px rgb(139 139 139 / 40%);
-    text-transform: uppercase;
+#customPopup1 p span{
+    color: #04c88c;
 }
-#customPopup1 button:hover{
-    background:linear-gradient(45deg,#597bea 0,#a04aaa 100%);
-}
+#customPopup1 button {
+            width: max-content;
+            margin-top: 10px;
+            background: #eaebed;
+            padding: 12px 2rem;
+            font-size: 16px;
+            font-weight: 700;
+            border: 0px;
+            display: block;
+            cursor: pointer;
+            color: #272727;
+            border-radius: 10px;
+            text-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.402);
+            transition: all 1s ease;
+            box-shadow: 0px 0px 8px 1px rgb(139 139 139 / 40%);
+            text-transform: uppercase;
+        }
 .popbtns{
     text-shadow: 1px 2px #0000004f;
 }
@@ -236,6 +233,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 @media (max-width:1080px) {
 
@@ -250,12 +248,20 @@
             position: fixed;
             bottom: 0;
             background: linear-gradient(45deg,#a04aaa 0,#597bea 100%);
-            padding: 20px 40px;
+            padding: 10px 40px;
             color: #fff;
             z-index: 1;
             font-family: Arial;
             font-size: 8px !important;
         }
+.footer-tab h4{
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-tab h4 span{
+    color: #04c88c;
+}
 
         .hideme {
             display: none;
@@ -3005,49 +3011,51 @@
         </div>
         
         
-         <div class="container-fluid footer-tab hideme" id="setfoot">
-       <div class="container">
-             <div class="row align-items-center">
-            <div class="d-flex justify-content-between align-items-center px-5">
-                <div>
-                     <h4>Enjoy Up to  50% Off  on<br> our 
-                    Exclusive seo packages</h4>
-                </div>
-                <div>
-                    <a class="get-offer" id="customPopup12" href="#customPopup1">Get the offer Now</a>
-                </div>
+        <div class="container-fluid footer-tab hideme" id="setfoot">
+            <div class="container">
+                  <div class="row align-items-center">
+                 <div class="d-flex justify-content-between align-items-center px-5">
+                     <div>
+                         <h4>ENJOY UP TO <span>50%</span> OFF ON OUR <br /> EXCLUSIVE
+                             <span>SEO</span> PACKAGES</h4>
+                     </div>
+                     <div>
+                         <a class="get-offer" id="customPopup12" href="#customPopup1">Get the offer Now</a>
+                     </div>
+                 </div>
+             </div>           
             </div>
-        </div>           
-       </div>
-    </div>
-    
-     <!--thanksgiving popup-->
-        <div id="customPopup1" class="popup">
-    <div class="popup-content1">
-        <span class="close" id="closePopupBtn">&times;</span>
-        <div class="componentss">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-lg-5">  
-            </div>
-            <div class="col-lg-7 ">
-                <h2>
-                    HAPPY <br> THANKSGIVING!
-                </h2>
-                <h4>Enjoy Up to  <span class="nycolor"> 50% Off </span> on<br> our 
-                    Exclusive  <span  class="nycolor"> seo </span> packages</h4>
-                    <form class="Popupforms11">
-                        <input name="email" id="email" type="text"  placeholder="Email" required=""/>
-                        <input name="phone" id="phone" onkeypress="return /[0-9]/i.test(event.key)" minlength="7" maxlength="15" type="text" placeholder="Phone" required=""/>
-                        <input name="comments" type="hidden" value="From Thanksgiving form"/>
-                        <button type="submit"><span class="popbtns">Claim NOW! </span></button>
-                    </form>
-                    <P>Transform your online presence with our top-tier SEO services and enjoy up to 50% discount on selected packages. Enhance your brand's visibility and reach this holiday season! </P>
-                   
-            </div>
-        </div>
-    </div>
-    </div>
-</div>
+         </div>
+         
+          <!--thanksgiving popup-->
+             <div id="customPopup1" class="popup">
+         <div class="popup-content1">
+             <span class="close" id="closePopupBtn">&times;</span>
+             <div class="componentss">
+             <div class="row justify-content-center align-items-center">
+                 <div class="col-lg-12 ">
+                     <h2>
+                         BLACK FRIDAY <br class="d-lg-block d-none"/><span>DEAL</span>
+                     </h2>
+                     <p>Enjoy Up to <span>50%</span> Off On Our Exclusive
+                         <br class="d-lg-block d-none"/> <span>SEO</span> Packages</p>
+                         <div class="col-lg-12">
+                             <form class="Popupforms11">
+                                 <input name="name" id="name" type="text" placeholder="Your Full Name" required />
+                                 <input name="email" id="email" type="text"  placeholder="Email" required=""/>
+                                 <input name="phone" id="phone" onkeypress="return /[0-9]/i.test(event.key)" minlength="7" maxlength="15" type="text" placeholder="Phone" required=""/>
+                                 <input name="comments" type="hidden" value="From Blackfriday form"/>
+                                 <button type="submit"><img
+                                     src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/b64bbc9c-7802-46db-07dd-827920180000/public"
+                                     alt="Icons" class="img-fluid d-inline pe-1"><span class="popbtns ps-3">Claim NOW! </span></button>
+                             </form>
+                         </div>
+                        
+                 </div>
+             </div>
+         </div>
+         </div>
+     </div>
         
         <!--thanksgiving popup-->
         <!-- Modal -->
