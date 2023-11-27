@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,9 +63,9 @@
     <script defer>
         !function (e, t, n, a, c, o, s) { e.fbq || (c = e.fbq = function () { c.callMethod ? c.callMethod.apply(c, arguments) : c.queue.push(arguments) }, e._fbq || (e._fbq = c), c.push = c, c.loaded = !0, c.version = "2.0", c.queue = [], (o = t.createElement(n)).async = !0, o.src = a, (s = t.getElementsByTagName(n)[0]).parentNode.insertBefore(o, s)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"), fbq("init", "815377486247146"), fbq("track", "PageView");
     </script>
-<!--popup style-->
+    <!--popup style-->
 
-<style>
+    <!-- <style>
     #customPopup1 {
     display: none;
     position: fixed;
@@ -247,8 +246,8 @@
             font-size: 14px;
             font-weight: 600;
             color: #a04aaa;
-        }
-</style>
+        </style>
+    } -->
 
 
 </head>
@@ -920,8 +919,8 @@
             </div>
         </div>
     </section>
-    
-     <div class="container-fluid footer-tab hideme" id="setfoot">
+
+    <!-- <div class="container-fluid footer-tab hideme" id="setfoot">
        <div class="container">
              <div class="row align-items-center">
             <div class="d-flex justify-content-between align-items-center px-5">
@@ -935,10 +934,10 @@
             </div>
         </div>           
        </div>
-    </div>
-    
-     <!--thanksgiving popup-->
-        <div id="customPopup1" class="popup">
+    </div> -->
+
+    <!--thanksgiving popup-->
+    <!-- <div id="customPopup1" class="popup">
     <div class="popup-content1">
         <span class="close" id="closePopupBtn">&times;</span>
         <div class="componentss">
@@ -965,23 +964,23 @@
         </div>
     </div>
     </div>
-</div>
-        
-        <!--thanksgiving popup-->
+</div> -->
+
+    <!--thanksgiving popup-->
     <!-- GetINTouch End  -->
     <!-- Footer Start  -->
     <footer>
         <div class="container">
             <div id="footer--row"></div>
         </div>
-        
-        
-       
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
         <!-- Modal -->
         <div class="modal fade" id="ourWebModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -1166,34 +1165,34 @@
         jQuery.event.special.touchstart = { setup: function (e, t, s) { this.addEventListener("touchstart", s, { passive: !t.includes("noPreventDefault") }) } }, jQuery.event.special.touchmove = { setup: function (e, t, s) { this.addEventListener("touchmove", s, { passive: !t.includes("noPreventDefault") }) } }, jQuery.event.special.wheel = { setup: function (e, t, s) { this.addEventListener("wheel", s, { passive: !0 }) } }, jQuery.event.special.mousewheel = { setup: function (e, t, s) { this.addEventListener("mousewheel", s, { passive: !0 }) } };
     </script>
 
-<!--thanksgiving popup-->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-                // Display the popup on page load
-                document.getElementById('customPopup1').style.display = 'block';
-    
-            });
-    
-    
-            document.getElementById('customPopup12').addEventListener('click', function () {
-                document.getElementById('customPopup1').style.display = 'block';
-                document.getElementById('setfoot').classList.add("hideme");
-            });
-            document.getElementById('closePopupBtn').addEventListener('click', function () {
-                document.getElementById('customPopup1').style.display = 'none';
-                document.getElementById('setfoot').classList.remove("hideme");
-    
-            });
-    
-            // Close the popup if the user clicks outside of it
-            window.addEventListener('click', function (event) {
-                var popup = document.getElementById('customPopup1');
-                if (event.target === popup) {
-                    popup.style.display = 'none';
-                }
-            });
-    
-    
+    <!--thanksgiving popup-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Display the popup on page load
+            document.getElementById('customPopup1').style.display = 'block';
+
+        });
+
+
+        document.getElementById('customPopup12').addEventListener('click', function () {
+            document.getElementById('customPopup1').style.display = 'block';
+            document.getElementById('setfoot').classList.add("hideme");
+        });
+        document.getElementById('closePopupBtn').addEventListener('click', function () {
+            document.getElementById('customPopup1').style.display = 'none';
+            document.getElementById('setfoot').classList.remove("hideme");
+
+        });
+
+        // Close the popup if the user clicks outside of it
+        window.addEventListener('click', function (event) {
+            var popup = document.getElementById('customPopup1');
+            if (event.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+
+
     </script>
 
 
