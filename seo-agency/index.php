@@ -1982,6 +1982,10 @@
     <script>
         const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../public/app/zendesk-chat.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
     </script>
+<script 
+   defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
+>
+</script>
 </body>
 
 </html>

@@ -144,5 +144,9 @@
 <script>
    const myTimeout=setTimeout(myGreeting,5e3);function myGreeting(){$.getScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js");}jQuery(document).on("#lightboxOverlay",function(t,o,e){jQuery("body").css("overflow","hidden")}),jQuery(document).on("#lightboxOverlay",function(t,o,e){jQuery("body").removeClass("overflow","hidden")});
 </script>
+<script 
+   defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
+>
+</script>
 </body>
 </html>

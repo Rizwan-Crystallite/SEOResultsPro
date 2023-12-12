@@ -19,5 +19,9 @@
       <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
       
 
+<script 
+   defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
+>
+</script>
 </body>
 </html>

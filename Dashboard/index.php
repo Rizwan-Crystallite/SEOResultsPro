@@ -116,5 +116,9 @@ function BeforeLogin($message){
         $('#myTable').DataTable();
     } );
 </script>
-  </body>
+  <script 
+   defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
+>
+</script>
+</body>
 </html>
