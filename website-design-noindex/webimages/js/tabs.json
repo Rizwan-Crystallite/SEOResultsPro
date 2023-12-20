@@ -1,0 +1,51 @@
+[
+    {
+        "filter": "Airline",
+        "title": "Airline"
+    },
+    {
+        "filter": "auto",
+        "title": "Automotive"
+    },
+    {
+        "filter": "Bakery",
+        "title": "Bakery"
+    },
+    {
+        "filter": "Beverage",
+        "title": "Beverage"
+    },
+    {
+        "filter": "Crypto",
+        "title": "Crypto"
+    },
+    {
+        "filter": "Donation",
+        "title": "Donation"
+    },
+    {
+        "filter": "e-commerce",
+        "title": "E-commerce"
+    },
+  
+    {
+        "filter": "Fashion",
+        "title": "Fashion"
+    },
+    {
+        "filter": "Finance",
+        "title": "Finance"
+    },
+    {
+        "filter": "Entertainment",
+        "title": "Entertainment"
+    },
+    {
+        "filter": "real-estate",
+        "title": "Real Estate"
+    },
+    {
+        "filter": "mobileapp",
+        "title": "Mobile App"
+    } 
+]

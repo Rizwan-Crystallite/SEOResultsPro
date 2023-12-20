@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 70" width="59" height="70">
+	<title>customer-satisfaction</title>
+	<defs>
+		<image  width="59" height="70" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAABGCAMAAABFRxyeAAAAAXNSR0IB2cksfwAAAFdQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////jkYO6AAAAB10Uk5TAFD/r88QYN9AgO8gcOAwT3+QP2+fwLDQv/CgX49nmoevAAAC40lEQVR4nO1XW5ujIAzFKMqlUG1Fpfb//85NAKt1bEdn9mX363kYpOQQknA5w9gCGWSLXl7wRa98GvuKCqq5IwDkU0/pN9QSAE6LiUA9HHMFBp7WsYQ91xU0oOqzRdPLtQXjIK8v0b6AjvfQblM79AmOOWoGTX8hs7HB0QYMZ9YvVrVEA9BlnPEMJ2m0B3VC97bsAQQF47GHqQS7Sb6BogGr4MbIRZsyUIbfymAjFxlYkbuw9p6GkYz+WKDygqYLcDBsck/Q8JHLVJgCrBXIxc8c+smGG2i2uBIKBapIg5gxoB9sqFwqO1ZqO2RKcR+SjaBMewOUKetccM9og3jntnZIB04wHaNmFrzkrDRxI85ctxku43FCHTNpU8N2cd/gn+DqChIqfZQr4QFxnCunjw/3r3LlMEEe5rq5oj/givjx4X64KzTTu9HT/Sx8EgiZpzunS4PcbL4o/xnGesQHRrf4NG4/+y9hCzyWypb0fII6t0rdX8mdNa4ARobD3XGUBgEvtdITND7gDSeRQkWLPd1DpWB4r/LQKSoywThG6vjUI3ERUK6M+dgOQzG0V9oRHN3cOBMVeNRVPA+90HaaJngSAOdhvrSKMVO0UH5Hp2gVe3OLsS+E2ohvn+9OwmqR3XzKDmU5OSX5RW0SHHJWqgKNTDknkBSdamuUL5Zd6vik3slp8sarSRNTBs0qeBGv3SEUFjrZBMWZgsT19DFByPSSfYE+9YHnmnA+7SyoaT04S0n7hgTRC4j5czrjlIQwC2alW5fqBRIXnZo0iXhrv4ANJdVF2GqHYGtFUnPaXLuhx1aFeqf9vRf8fA/VNZjsQ04vNVUBt1upH4dqF7I8VvcUb4vrtJP3AOVz30xLpEPV7Y9UZ7NtdsTpE8KZPVjT3zrlY/Ezp3qkXJvjTs/3UNy9J+WBSx3uLn8rv12trSOuF/vggZPfPiH6mitYo2/2xJhHUxmB/4N512Q70+rMjpi28Qe68idnY03begAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

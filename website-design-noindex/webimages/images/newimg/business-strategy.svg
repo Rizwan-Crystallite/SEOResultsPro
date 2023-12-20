@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 70" width="54" height="70">
+	<title>business-strategy</title>
+	<defs>
+		<image  width="54" height="70" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABGCAMAAACwuZcuAAAAAXNSR0IB2cksfwAAAFRQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////MF88lgAAABx0Uk5TABB/3/+vQDDvn/BwgJBQsMCgv89gII/Qb+A/T1dhSTcAAAKiSURBVHic5ZfdmpwgDIZBI6DiP646vf/7bCKiOKLD9Kh9mpN1hFcgJF+yjDGepPCFZYKRSfUNRJYjxRUUpbCmAbQIWgWwTaobnMSYhoIzZy29CVkH3f6sQXGWQsm8N30YG/xZBRgGII4XEmDoAzYAjMcs2tMJY+WdGwx7wthY6oCZkT1jMfZPY+Kn/3n42A02Xlwet9oE0CKY5uEl7zCO4dOuS/b8C8xQkAtB6BDgbjCkJjtbFGtyRWE5QOfWwC/IOIwof0rH3i2A8X5NXj7P+3IxGGaWEUmO+lLbF4GzXzGBmsFthil7vsnP69vVFjzLAosZ1SYr3VVeAhgul2GM0F/rQg1VBMYoOgozK0Q3rI3BeNPV5M7twmMxMnSn3ij8Qizmh4a9xiisOSJDhjZzg3kSXF63eIt5r+qTHD9gY997io7OUX2vP2MioOQqBpvealv5ngQB7DXD8DrbDPD6UAPMTcFJnzGsre3VpvM2Q1jgnshNnzAVLqZ/drblGWP1XkE7WPbnMr6aiuAxg1h5OpB/zIw/YA99VPmAoSAHz6YXP1kDWH04B4ZjYHjAEtpjZvVAZhRSyTZAnWMvgxjJ1ZolNOy6xbVM5duACWEYjiVnYqKw5SmmD+N69YRZdUxOTt7PmLLOwgJcooTYblFThm6yzhfnTR+TLu46VO9uU3CsIiN3cqKhuWJ7lFMS7O0ojp4GLtjoHsjX1eZ8FC6+30rv5PN0ttZ2BQlJMq5A1XQcaIEGUtql8WZ6mCxA5QmmVrUeEAaqqQXexugGnFafrxu7CbJqcwxZsV6xXNYfe/vwFiW8bNrKxYKs2sbsfUbXVkcM/h395H+OLdfm6JMp7KP1nn2xtv7rhmmp5le8/cpsyyGLe3EMmw1prpdvoIZc+BskBzX7x9BN8wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
