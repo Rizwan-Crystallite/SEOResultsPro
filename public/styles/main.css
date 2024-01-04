@@ -3858,10 +3858,6 @@ button#butact3u1 {
   margin-left: 12px;
 }
 
-/* .log-banner form .primary-btn {
-  margin-left: 17px !important;
-} */
-
 /* .card-container {
     display: flex;
     justify-content: space-around;
@@ -4013,6 +4009,12 @@ button#butact3u1 {
   .log-banner form {
     margin-left: 12px !important;
     margin-right: 12px !important;
+  }
+
+  .log-banner { 
+    background-position: right;
+    background-size: cover;
+    padding: 55px 0; 
   }
 }
 
