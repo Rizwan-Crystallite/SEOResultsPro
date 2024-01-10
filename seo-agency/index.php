@@ -1547,7 +1547,7 @@
                     <p class="text-uppercase m-0 font-12 font-primary d-flex text-white line-height-0">
                         <a href="/terms-and-conditions/" class="text-white px-2 mobilenone">Terms And Conditions</a> |
                         <a class="text-white px-2 mobilenone" href="/privacy-policy/">Privacy Policy</a> | COPYRIGHTS
-                        2023 ALL
+                        2024 ALL
                         RESERVED - BHAOO INC
                     </p>
 
