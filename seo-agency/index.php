@@ -715,7 +715,7 @@
                         to waste on marketing that may not work. That’s exactly where we come in to help you secure your
                         money and time with our PROMISING SEO!</p>
                     <div>
-                        <a href="tel:1-213-477-7023" class="primary-btn">I'm Ready! Let's
+                        <a href="tel:(833)-800-0083" class="primary-btn">I'm Ready! Let's
                             Start
                             NOW!</a>
                     </div>
@@ -922,7 +922,7 @@
                 </div>
             </div>
             <div class="cta--wrapper">
-                <a href="tel:1-213-477-7023" class="primary-btn">Free Initial Consultation</a>
+                <a href="tel:(833)-800-0083" class="primary-btn">Free Initial Consultation</a>
             </div>
         </section>
 
@@ -1408,7 +1408,7 @@
                             5.0 / Overall google rating</div>
                         <h2 class="font-80 fw-700 text-white mb-4">Have a project?</h2>
                         <p class="font-20 fw-600 text-white">We should start the conversation :)</p>
-                        <a href="tel:1-213-477-7023" class="btn btn-primary fw-600 font-15 mt-4">
+                        <a href="tel:(833)-800-0083" class="btn btn-primary fw-600 font-15 mt-4">
                             <span><img src="images/p_icon.svg" class="img-fluid pe-2" alt="seoresultspro"></span> Book a
                             call</a>
                     </div>
@@ -1496,11 +1496,11 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="tel:1-213-477-7023" class="font-14 text-black">
+                                <a href="tel:(833)-800-0083" class="font-14 text-black">
                                     <span class="me-1">
                                         <img alt="call" width="12" height="12"
                                             src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/1262e3b2-ebfc-443d-68a1-868d28ccfb00/public" />
-                                    </span> 1-213-477-7023
+                                    </span> (833)-800-0083
                                 </a>
                             </li>
                             <li><a href="mailto:support@seoresultspro.com" class="font-14 text-black">
@@ -1638,7 +1638,7 @@
             <span class="icon">
                 <img width="30" height="30" alt="SRP" class="img-fluid" src="images/phone-icon.png" loading="lazy">
                 <div class="txtBody">
-                    <a href="tel:12134777023">1-213-477-7023</a>
+                    <a href="tel:12134777023">(833)-800-0083</a>
                 </div>
             </span>
         </div>
