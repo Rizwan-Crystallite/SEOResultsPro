@@ -101,6 +101,8 @@ RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 Redirect 301 /seo-services https://seoresultspro.com/best-seo-services-provider
 Redirect 301 /cannabis-seo-services-for-moden-dispensaries https://seoresultspro.com/cannabis-seo-services-for-modern-dispensaries
 Redirect 301 /website-design https://seoresultspro.com/website-design-agency
+Redirect 301 /best-seo-services-provider/best-seo-services-provider/ /best-seo-services-provider
+Redirect 301 /qualities-of-the-best-local-seo-services/qualities-of-the-best-local-seo-services/ /qualities-of-the-best-local-seo-services/
 Redirect     /what-is-xml-sitemap-&-why-its-important-for-seo-services /what-is-xml-sitemap-and-why-seo-agency-services-consider-it-important-for-seo
 RewriteCond %{HTTP_HOST} ^seoresultspro\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.seoresultspro\.com$
