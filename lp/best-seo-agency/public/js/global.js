@@ -50,7 +50,104 @@ const emblaApiForAwards = EmblaCarousel(emblaNodeForAwards, optionsForAwards, pl
 const emblaNodeForReviews = document.querySelector('.reviewsFold .embla')
 const optionsForReviews = { loop: true, }
 const pluginsForReviews = [EmblaCarouselClassNames(), EmblaCarouselAutoplay({ delay: 4000 })]
+const prevBtnNodeForReviews = emblaNodeForReviews.querySelector('.embla__button--prev')
+const nextBtnNodeForReviews = emblaNodeForReviews.querySelector('.embla__button--next')
+const dotsNodeForReviews = emblaNodeForReviews.querySelector('.emblaDots')
 const emblaApiForReviews = EmblaCarousel(emblaNodeForReviews, optionsForReviews, pluginsForReviews)
+
+const addTogglePrevNextBtnsActiveForReviews = (emblaApiForReviews, prevBtnNodeForReviews, nextBtnNodeForReviews) => {
+    const togglePrevNextBtnsState = () => {
+        if (emblaApiForReviews.canScrollPrev()) prevBtnNodeForReviews.removeAttribute('disabled')
+        else prevBtnNodeForReviews.setAttribute('disabled', 'disabled')
+
+        if (emblaApiForReviews.canScrollNext()) nextBtnNodeForReviews.removeAttribute('disabled')
+        else nextBtnNodeForReviews.setAttribute('disabled', 'disabled')
+    }
+
+    emblaApiForReviews
+        .on('select', togglePrevNextBtnsState)
+        .on('init', togglePrevNextBtnsState)
+        .on('reInit', togglePrevNextBtnsState)
+
+    return () => {
+        prevBtnNodeForReviews.removeAttribute('disabled')
+        nextBtnNodeForReviews.removeAttribute('disabled')
+    }
+}
+
+const addPrevNextBtnsClickHandlersForReviews = (emblaApiForReviews, prevBtnNodeForReviews, nextBtnNodeForReviews) => {
+    const scrollPrev = () => {
+        emblaApiForReviews.scrollPrev()
+    }
+    const scrollNext = () => {
+        emblaApiForReviews.scrollNext()
+    }
+    prevBtnNodeForReviews.addEventListener('click', scrollPrev, false)
+    nextBtnNodeForReviews.addEventListener('click', scrollNext, false)
+
+    const removeTogglePrevNextBtnsActive = addTogglePrevNextBtnsActiveForReviews(
+        emblaApiForReviews,
+        prevBtnNodeForReviews,
+        nextBtnNodeForReviews
+    )
+
+    return () => {
+        removeTogglePrevNextBtnsActive()
+        prevBtnNodeForReviews.removeEventListener('click', scrollPrev, false)
+        nextBtnNodeForReviews.removeEventListener('click', scrollNext, false)
+    }
+}
+const addDotBtnsAndClickHandlersForReviews = (emblaApiForReviews, dotsNodeForReviews) => {
+    let dotNodes = []
+
+    const addDotBtnsWithClickHandlers = () => {
+        dotsNodeForReviews.innerHTML = emblaApiForReviews
+            .scrollSnapList()
+            .map(() => '<button class="embla__dot" type="button"></button>')
+            .join('')
+
+        const scrollTo = (index) => {
+            emblaApiForReviews.scrollTo(index)
+        }
+
+        dotNodes = Array.from(dotsNodeForReviews.querySelectorAll('.embla__dot'))
+        dotNodes.forEach((dotNode, index) => {
+            dotNode.addEventListener('click', () => scrollTo(index), false)
+        })
+    }
+
+    const toggleDotBtnsActive = () => {
+        const previous = emblaApiForReviews.previousScrollSnap()
+        const selected = emblaApiForReviews.selectedScrollSnap()
+        dotNodes[previous].classList.remove('embla__dot--selected')
+        dotNodes[selected].classList.add('embla__dot--selected')
+    }
+
+    emblaApiForReviews
+        .on('init', addDotBtnsWithClickHandlers)
+        .on('reInit', addDotBtnsWithClickHandlers)
+        .on('init', toggleDotBtnsActive)
+        .on('reInit', toggleDotBtnsActive)
+        .on('select', toggleDotBtnsActive)
+
+    return () => {
+        dotsNodeForReviews.innerHTML = ''
+    }
+}
+
+const removeDotBtnsAndClickHandlersForReviews = addDotBtnsAndClickHandlersForReviews(
+    emblaApiForReviews,
+    dotsNodeForReviews
+)
+
+const removePrevNextBtnsClickHandlersForReviews = addPrevNextBtnsClickHandlersForReviews(
+    emblaApiForReviews,
+    prevBtnNodeForReviews,
+    nextBtnNodeForReviews
+)
+emblaApiForReviews.on('destroy', removePrevNextBtnsClickHandlersForReviews)
+emblaApiForReviews.on('destroy', removeDotBtnsAndClickHandlersForReviews)
+
 
 // Solutotions Slider
 const emblaNodeForSolutions = document.querySelector('.solutionsFold .embla')
