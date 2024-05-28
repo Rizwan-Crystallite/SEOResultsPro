@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -58,7 +59,8 @@ a {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
     color: #ffffff;
 }
-.secondaryCTA{
+
+.secondaryCTA {
     position: relative;
     display: inline-flex;
     font-size: 16px;
@@ -113,11 +115,55 @@ a {
     margin-top: 2rem;
 }
 
+.heroFold .transformSlides {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: transform 0.5s ease;
+    gap: 1rem;
+    width: 100%;
+}
+
+.heroFold .transformSlides img {
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 11px 29px 80px rgba(0, 0, 0, 0.07);
+}
+
+.heroFold .transformSlides img:nth-child(1) {
+    transform: translate(-60px, 0px) rotate(-20deg);
+}
+
+.heroFold .transformSlides img:nth-child(2) {
+    transform: translate(-110px, 0px) rotate(5deg);
+}
+
+.heroFold .transformSlides img:nth-child(5) {
+    transform: translate(70px, 0px) rotate(25deg);
+}
+
+.heroFold .transformSlides img:nth-child(4) {
+    transform: translate(130px, 0px) rotate(-5deg);
+}
+
+.heroFold .transformSlides img:nth-child(3) {
+    transform: translate(250px, 50px) rotate(25deg);
+}
+
 /* Consult Fold */
 .consultFold {
     position: relative;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
+}
+
+.consultFold2 {
+    padding-top: 100px !important;
+    background-color: #000000;
 }
 
 .consultFold .contentBox {
@@ -129,6 +175,16 @@ a {
     line-height: 1.2;
     margin-bottom: 2rem;
     color: #000000;
+}
+
+.consultFold2 .contentBox h2,
+.consultFold2 .contentBox p {
+    color: #ffffff !important;
+}
+
+.consultFold2 .contentBox h2 {
+    line-height: 1.3;
+    font-size: 27px;
 }
 
 .consultFold .contentBox p {
@@ -184,12 +240,21 @@ a {
     margin: auto;
 }
 
+.consultFold2 .formArea {
+    background: #ffffff !important;
+}
+
 .consultFold .formArea h2 {
     font-size: 30px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1;
+}
+
+.consultFold2 .formArea h2 {
+    color: #000000;
+    margin-bottom: 2rem;
 }
 
 .consultFold .formArea img {
@@ -204,6 +269,10 @@ a {
     height: 50px;
     border-radius: 10px;
     border-color: transparent;
+}
+
+.consultFold2 .formArea form input {
+    border: 1px solid #C4C4C4;
 }
 
 .consultFold .formArea form {
@@ -233,6 +302,14 @@ a {
     width: max-content;
     margin-left: auto;
     border: inherit;
+}
+
+.consultFold2 .formArea form button {
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
 }
 
 /* Awards Fold */
@@ -683,4 +760,91 @@ a {
 
 .solutionsFold .embla .emblaControls .totalSlides {
     color: #C7C7C7;
+}
+
+/* Header */
+header .mainHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 2rem 0;
+}
+
+header .mainHeader .__headerRow {
+    display: flex;
+    align-items: center;
+}
+
+header .mainHeader .__headerRow nav {
+    margin: 0 auto;
+}
+
+header .mainHeader .__headerRow nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+header .mainHeader .__headerRow nav ul li a {
+    padding: 0 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+header .mainHeader .__headerRow .__ctas {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header .mainHeader .__headerRow .__ctas a:first-child {
+    padding: 0 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+header .mainHeader .__hamburger {
+    margin-left: 1rem;
+    display: none;
+}
+
+header .mainHeader .__hamburger .__line {
+    width: 50px;
+    height: 5px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+header .mainHeader .__hamburger:hover {
+    cursor: pointer;
+}
+
+header .mainHeader .__hamburger.is-active .__line:nth-child(2) {
+    opacity: 0;
+}
+
+header .mainHeader .__hamburger.is-active .__line:nth-child(1) {
+    -webkit-transform: translateY(13px) rotate(45deg);
+    -ms-transform: translateY(13px) rotate(45deg);
+    -o-transform: translateY(13px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
+}
+
+header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
 }

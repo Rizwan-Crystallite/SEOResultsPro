@@ -8,6 +8,13 @@
         display: flex;
         align-items: center;
     }
+
+    .heroFold {
+        display: flex;
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -26,6 +33,12 @@
 
     .solutionsFold .contentBox p {
         width: 55%;
+    }
+    .heroFold {
+        height: 100vh;
+    }
+    .consultFold2 .contentBox h2 {
+        font-size: 35px;
     }
 }
 
@@ -62,7 +75,13 @@
     .consultFold .contentBox h2 {
         font-size: 35px;
     }
-
+    .consultFold2 .contentBox h2 {
+        font-size: 25px;
+    }
+    
+    .consultFold2 .contentBox h2 br {
+        display: none;
+    }
     .consultFold .counterBox {
         width: 100%;
         row-gap: 1.5rem;
@@ -111,6 +130,43 @@
 
     .solutionsFold .solutionBox .counterBox {
         margin-top: 0;
+    }
+
+    header .mainHeader .__headerRow .__ctas {
+        margin-left: auto;
+    }
+
+    header .mainHeader .__hamburger {
+        display: block;
+    }
+
+    header .mainHeader .__headerRow nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: transparent;
+        opacity: 0;
+        height: 0;
+        z-index: 99999;
+        max-width: 960px;
+        margin: auto;
+        backdrop-filter: blur(50px);
+        padding: 1rem 0;
+    }
+
+    header .mainHeader .__headerRow nav ul {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    header .mainHeader .__headerRow nav ul li a {
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+    .reviewsFold .reviewsCard .__message {
+        text-align: justify;
     }
 }
 
@@ -228,6 +284,22 @@
         font-size: 14px;
         text-align: justify;
     }
+
+    .heroFold .transformSlides {
+        display: none;
+    }
+
+    .heroFold {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    header .mainHeader .__headerRow nav {
+        max-width: 720px;
+    }
+    .reviewsFold .embla {
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -311,6 +383,17 @@
 
     .solutionsFold .solutionBox .counterBox {
         margin-top: 30px;
+    }
+
+    header .mainHeader .__headerRow nav {
+        max-width: 540px;
+    }
+
+    header .mainHeader .__headerRow .__ctas .primaryCTA {
+        display: none;
+    }
+    .consultFold2 .contentBox h2 {
+        font-size: 25px;
     }
 }
 
@@ -400,5 +483,22 @@
 
     .solutionsFold .embla {
         padding-top: 30px;
+    }
+
+    header .mainHeader .__headerRow nav {
+        max-width: calc(100% - calc(var(--bs-gutter-x) * 1));
+    }
+
+    header .mainHeader .__hamburger .__line {
+        width: 30px;
+    }
+
+    header .mainHeader .__hamburger:hover {
+        margin-left: 0.5rem;
+    }
+
+
+    header .mainHeader .__headerRow .__ctas a:first-child {
+        font-size: 12px;
     }
 }
