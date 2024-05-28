@@ -139,8 +139,8 @@
 }
 .__resultsDeliveryFold h3{
     font-size: 35px;
-    line-height: 45px;
-    font-weight: 500;
+    line-height: 53px;
+    font-weight: 600;
 }
 
 .__resultsDeliveryFold p{
@@ -297,18 +297,18 @@
     font-size: 35px;
     line-height: 50px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .__whyChooseFold .__WhyChoose p{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .__whyChooseFold .card {
     border-radius: 30px;
 }
 .__whyChooseFold .card .card-title h3 {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
