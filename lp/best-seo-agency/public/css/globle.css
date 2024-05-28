@@ -53,6 +53,19 @@ a {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
     color: #ffffff;
 }
+.secondaryCTA{
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #000000;
+    color: #fff;
+}
 
 /* Hero Fold */
 .heroFold {
