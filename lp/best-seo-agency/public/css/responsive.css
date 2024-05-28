@@ -1,0 +1,404 @@
+@media screen and (min-width: 992px) {
+    .emblaViewport {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .reviewsFold .reviewsCard .__message {
+        font-size: 15px;
+    }
+
+    .servicesFold .__cards {
+        width: 88%;
+    }
+
+    .servicesFold .__cards p {
+        font-size: 15px;
+    }
+
+    .solutionsFold .contentBox p {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+
+    .heroFold .contentBox h1 {
+        font-size: 35px;
+    }
+
+    .heroFold .contentBox .subTitle {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .heroFold .contentBox p:not(.subTitle) {
+        width: 75%;
+    }
+
+    .consultFold .contentBox h2,
+    .consultFold .contentBox p {
+        margin-bottom: 1.5rem;
+    }
+
+    .awardsSliderFold .contentBox h2 {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .consultFold .contentBox h2 {
+        font-size: 35px;
+    }
+
+    .consultFold .counterBox {
+        width: 100%;
+        row-gap: 1.5rem;
+    }
+
+    .consultFold .counterBox p {
+        font-size: 13px;
+    }
+
+    .awardsSliderFold .contentBox h2 {
+        font-size: 28px;
+    }
+
+    .awardsSliderFold .contentBox p {
+        width: 95%;
+    }
+
+    .reviewsFold .embla {
+        overflow: visible;
+    }
+
+    .reviewsFold {
+        overflow: hidden;
+    }
+
+    .reviewsFold .reviewsCard .__footer {
+        flex-direction: column;
+    }
+
+    .servicesFold .__cards a {
+        font-size: 14px;
+    }
+
+    .servicesFold .__cards {
+        width: 100%;
+    }
+
+    .servicesFold .__cards p {
+        text-align: justify;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner {
+        gap: 1rem;
+        padding-right: 1rem;
+    }
+
+    .solutionsFold .solutionBox .counterBox {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .heroFold .contentBox .subTitle {
+        font-size: 20px;
+    }
+
+    .heroFold .contentBox h1 {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox p:not(.subTitle) {
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .consultFold .counterBox,
+    .consultFold .contentBox {
+        margin-bottom: 30px;
+    }
+
+    .consultFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .awardsSliderFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .awardsSliderFold .contentBox {
+        margin-bottom: 50px;
+    }
+
+    .reviewsFold .reviewsCard .__footer {
+        flex-direction: column;
+    }
+
+    .reviewsFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .reviewsFold .contentBox h2 {
+        font-size: 26px;
+    }
+
+    .reviewsFold .contentBox p {
+        width: 80%;
+    }
+
+    .reviewsFold .emblaSlide {
+        flex: 0 0 50%;
+    }
+
+    .servicesFold .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .servicesFold .__servicesBg {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .servicesFold {
+        padding-top: 50px;
+    }
+
+    .servicesFold .__servicesBg::before {
+        margin-bottom: -50px;
+    }
+
+    .solutionsFold {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .solutionsFold .contentBox p {
+        width: 80%;
+    }
+
+    .solutionsFold .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner h4 {
+        font-size: 20px;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner p {
+        font-size: 12px;
+    }
+
+    .solutionsFold .solutionBox .counterBox .__inner {
+        padding-right: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .solutionsFold .solutionBox .counterBox {
+        margin-bottom: 1rem;
+    }
+
+    .solutionsFold .solutionBox h3 {
+        font-size: 28px;
+    }
+
+    .solutionsFold .solutionBox p {
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .heroFold .contentBox .subTitle {
+        font-size: 18px;
+    }
+
+    .heroFold .contentBox h1 {
+        font-size: 35px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 20px;
+    }
+
+    .consultFold .contentBox p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 21px;
+        margin-bottom: 1rem;
+    }
+
+    .consultFold .contentBox h2 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .awardsSliderFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .reviewsFold .contentBox h2 br {
+        display: none;
+    }
+
+    .reviewsFold .contentBox p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .reviewsFold .emblaSlide {
+        flex: 0 0 90%;
+    }
+
+    .servicesFold {
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+
+    .servicesFold .__cards h3 {
+        font-size: 20px;
+    }
+
+    .servicesFold .contentBox {
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .solutionsFold .contentBox h2 {
+        font-size: 26px;
+        margin-bottom: 1rem;
+    }
+
+    .solutionsFold .contentBox h2 br {
+        display: none;
+    }
+
+    .solutionsFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .solutionsFold {
+        padding-top: 50px;
+    }
+
+    .solutionsFold .solutionBox .counterBox {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .heroFold .contentBox .subTitle {
+        font-size: 14px;
+    }
+
+    .heroFold .contentBox h1 {
+        font-size: 25px;
+    }
+
+    .heroFold .contentBox h2 {
+        font-size: 16px;
+    }
+
+    .consultFold .contentBox p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 21px;
+        margin-bottom: 1rem;
+    }
+
+    .consultFold .contentBox h2 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .consultFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .consultFold .counterBox h3 {
+        font-size: 20px;
+    }
+
+    .consultFold .counterBox p {
+        font-size: 9px;
+    }
+
+    .consultFold .formArea {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .consultFold .formArea h2 {
+        font-size: 25px;
+    }
+
+    .consultFold .formArea form {
+        row-gap: 1rem;
+    }
+
+    .consultFold .formArea img {
+        margin-bottom: 1rem;
+    }
+
+    .consultFold .counterBox>div {
+        gap: 0.5rem;
+    }
+
+    .awardsSliderFold .contentBox h2 {
+        font-size: 22px;
+    }
+
+    .reviewsFold .contentBox h2 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .reviewsFold .embla {
+        padding-top: 30px;
+    }
+
+    .servicesFold .contentBox h2 {
+        font-size: 24px;
+    }
+
+    .servicesFold .__servicesBg::before {
+        margin-right: -250px;
+        margin-left: -100px;
+    }
+
+    .solutionsFold .contentBox h2 {
+        font-size: 20px;
+    }
+
+    .solutionsFold .embla {
+        padding-top: 30px;
+    }
+}
