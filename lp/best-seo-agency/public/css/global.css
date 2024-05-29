@@ -893,3 +893,198 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
 }
+
+/* Packages Fold */
+.packagesFold {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.packagesFold .contentBox h2 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+}
+
+.packagesFold .contentBox p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 23px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.packagesFold .contentBox {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.packagesFold .__packageCard {
+    padding: 2rem 1rem;
+    border: 1px solid #A646A5;
+    border-radius: 1rem;
+}
+
+.packagesFold .__packageCard .__header h3 {
+    font-size: 25px;
+    color: #9257B9;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.packagesFold .__packageCard .__header p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 23px;
+    margin-bottom: 1rem;
+}
+
+.packagesFold .__packageCard .__header h6 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.packagesFold .__packageCard .__header a {
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: rgb(146, 87, 185);
+    background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
+    color: #ffffff;
+    width: 100%;
+}
+
+.packagesFold .__packageCard .__header a span {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.packagesFold .__packageCard .__header {
+    margin-bottom: 2rem;
+}
+
+.packagesFold .__packageCard .__listBody {
+    height: 320px;
+    overflow-y: scroll;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.packagesFold .__packageCard .__listBody li {
+    position: relative;
+    padding-left: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #707070;
+}
+
+.packagesFold .__packageCard .__listBody li::before {
+    content: "";
+    display: block;
+    background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/f7b42f6d-f5d1-4d59-cc90-c877b0971300/public);
+    height: 14px;
+    width: 14px;
+    filter: grayscale(1);
+    display: block;
+}
+
+.packagesFold .__packageCard .__listBody span {
+    display: block;
+    width: max-content;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.packagesFold .__packageCard .__listBody span:first-child {
+    margin-top: 0;
+}
+
+.packagesFold .__packageCard .__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.packagesFold .__packageCard .__footer a:first-child {
+    padding: 0 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: #9257B9;
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.packagesFold .__packageCard .__footer a:last-child {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    color: #000000;
+}
+
+.packagesFold .__packageCard .__listBody::-webkit-scrollbar {
+    width: 6px;
+}
+
+.packagesFold .__packageCard .__listBody::-webkit-scrollbar-track {
+    background-color: #DEDEDE;
+}
+
+.packagesFold .__packageCard .__listBody::-webkit-scrollbar-thumb {
+    background-color: #707070;
+}
+
+.packagesFold .nav.nav-tabs {
+    justify-content: center;
+    border-bottom: 0;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+
+.packagesFold .nav.nav-tabs button {
+    background-color: transparent;
+    border: inherit;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: #9257B9;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    width: 250px;
+    padding: 0.2rem 0;
+}
+
+.packagesFold .nav.nav-tabs button span {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.packagesFold .nav.nav-tabs button.active {
+    background-color: #9257B9;
+    color: #ffffff;
+}

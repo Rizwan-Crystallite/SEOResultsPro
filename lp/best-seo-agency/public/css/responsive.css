@@ -34,9 +34,11 @@
     .solutionsFold .contentBox p {
         width: 55%;
     }
+
     .heroFold {
         height: 100vh;
     }
+
     .consultFold2 .contentBox h2 {
         font-size: 35px;
     }
@@ -75,13 +77,15 @@
     .consultFold .contentBox h2 {
         font-size: 35px;
     }
+
     .consultFold2 .contentBox h2 {
         font-size: 25px;
     }
-    
+
     .consultFold2 .contentBox h2 br {
         display: none;
     }
+
     .consultFold .counterBox {
         width: 100%;
         row-gap: 1.5rem;
@@ -165,6 +169,7 @@
         display: block;
         text-align: center;
     }
+
     .reviewsFold .reviewsCard .__message {
         text-align: justify;
     }
@@ -240,6 +245,8 @@
 
     .servicesFold {
         padding-top: 50px;
+        overflow: hidden;
+        padding-bottom: 50px;
     }
 
     .servicesFold .__servicesBg::before {
@@ -297,8 +304,22 @@
     header .mainHeader .__headerRow nav {
         max-width: 720px;
     }
+
     .reviewsFold .embla {
         padding-bottom: 0;
+    }
+
+    .packagesFold .contentBox p {
+        width: 80%;
+    }
+
+    .packagesFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .packagesFold .contentBox h2 {
+        font-size: 30px;
     }
 }
 
@@ -392,8 +413,23 @@
     header .mainHeader .__headerRow .__ctas .primaryCTA {
         display: none;
     }
+
     .consultFold2 .contentBox h2 {
         font-size: 25px;
+    }
+
+    .packagesFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .packagesFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .packagesFold {
+        padding-top: 70px;
     }
 }
 
@@ -500,5 +536,20 @@
 
     header .mainHeader .__headerRow .__ctas a:first-child {
         font-size: 12px;
+    }
+
+    .packagesFold .contentBox {
+        margin-bottom: 30px;
+    }
+
+    .packagesFold .nav.nav-tabs button {
+        width: max-content;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 15px;
+    }
+
+    .packagesFold .nav.nav-tabs {
+        gap: 0.5rem;
     }
 }
