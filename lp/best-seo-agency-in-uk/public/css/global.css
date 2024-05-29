@@ -673,26 +673,24 @@ a {
 }
 
 .servicesFold .__cards {
+    padding: 3rem 1.5rem;
     width: 95%;
     margin: auto;
     border-bottom: 1px solid #707070;
-    padding-bottom: 1.5rem;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: all 0.5s ease;
 }
 
 .servicesFold .__cards:hover {
-    background-color: #ffffff;
-    padding: 1rem 0.5rem;
+    background-color: #4e4e4e;
     cursor: pointer;
+    backdrop-filter: blur(100px);
+    border-bottom-color: #8e5abd;
 }
 
-.servicesFold .__cards:hover h3,
-.servicesFold .__cards:hover p {
-    color: #000000;
-}
 
 .servicesFold .__cards:hover a {
     background: rgb(146, 87, 185);
