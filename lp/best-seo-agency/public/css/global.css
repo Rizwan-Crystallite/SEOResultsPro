@@ -78,6 +78,18 @@ a {
 .heroFold {
     position: relative;
     background-color: #000000;
+    z-index: 1;
+}
+
+.heroFold .__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .heroFold .contentBox {
@@ -183,7 +195,7 @@ a {
 }
 
 .consultFold2 .contentBox h2 {
-    line-height: 1.3;
+    line-height: 1.5;
     font-size: 27px;
 }
 
@@ -241,7 +253,8 @@ a {
 }
 
 .consultFold2 .formArea {
-    background: #ffffff !important;
+    background: #ffffff;
+    width: 80%;
 }
 
 .consultFold .formArea h2 {
@@ -925,6 +938,7 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     padding: 2rem 1rem;
     border: 1px solid #A646A5;
     border-radius: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .packagesFold .__packageCard .__header h3 {
