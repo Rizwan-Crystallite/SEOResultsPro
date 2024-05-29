@@ -18,6 +18,12 @@
 
 }
 
+@media screen and (min-width: 1200px) {
+    .packagesFold .__packageCard .__header p {
+        min-height: 70px;
+    }
+}
+
 @media screen and (min-width: 1400px) {
 
     .reviewsFold .reviewsCard .__message {
@@ -174,6 +180,14 @@
     .reviewsFold .reviewsCard .__message {
         text-align: justify;
     }
+
+    .consultFold2 .formArea {
+        width: 90%;
+    }
+
+    .packagesFold .__packageCard .__header p {
+        min-height: 95px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -256,7 +270,7 @@
 
     .solutionsFold {
         padding-top: 100px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     .solutionsFold .contentBox p {
@@ -285,7 +299,7 @@
     }
 
     .solutionsFold .solutionBox h3 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .solutionsFold .solutionBox p {
@@ -321,6 +335,19 @@
 
     .packagesFold .contentBox h2 {
         font-size: 30px;
+    }
+
+    .industriesFold .contentBox p {
+        width: 80%;
+    }
+
+    .industriesFold {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .packagesFold .__packageCard .__header p {
+        min-height: 80px;
     }
 }
 
@@ -432,6 +459,32 @@
     .packagesFold {
         padding-top: 70px;
     }
+
+    .industriesFold .contentBox h2 {
+        margin-bottom: 1rem;
+    }
+
+    .industriesFold .contentBox p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .__Footer h3 {
+        margin-top: 1rem;
+    }
+
+    .__Footer br {
+        display: none;
+    }
+
+    .__Footer {
+        padding: 50px 0;
+    }
+
+    .packagesFold .__packageCard .__header p {
+        min-height: inherit;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -454,13 +507,9 @@
         margin-bottom: 1rem;
     }
 
-    .consultFold .contentBox h2 {
-        font-size: 30px;
-        margin-bottom: 1rem;
-    }
 
     .consultFold .contentBox h2 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .consultFold .counterBox h3 {
@@ -507,6 +556,7 @@
 
     .servicesFold .contentBox h2 {
         font-size: 24px;
+        text-align: center;
     }
 
     .servicesFold .__servicesBg::before {
@@ -552,5 +602,27 @@
 
     .packagesFold .nav.nav-tabs {
         gap: 0.5rem;
+    }
+
+    .industriesFold .contentBox h2 {
+        font-size: 25px;
+    }
+
+    .industriesFold .contentBox {
+        margin-bottom: 30px;
+    }
+
+    .industriesFold .primaryCTA {
+        margin-top: 1rem;
+    }
+
+    .primaryCTA {
+        font-size: 14px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .__QualifiedLeadsFold h2 {
+        font-size: 25px;
     }
 }

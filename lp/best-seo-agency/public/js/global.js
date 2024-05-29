@@ -264,3 +264,23 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 })
+
+// Reviews Industries
+// const emblaNodeForIndustries = document.querySelector('.industriesFold .embla')
+// const optionsForIndustries = { loop: true,}
+// const pluginsForIndustries = [EmblaCarouselAutoplay({ delay: 4000 })]
+// const emblaApiForIndustries = EmblaCarousel(emblaNodeForIndustries, optionsForIndustries, pluginsForIndustries)
+$('.industriesFold .slickContainer').slick({
+    slidesToShow: 3,
+    dots: false,
+    arrows: false,
+    infinite: true,
+    variableWidth: true,
+    centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+    loop: true,
+    infinite: true,
+    adaptiveHeight: true
+});
