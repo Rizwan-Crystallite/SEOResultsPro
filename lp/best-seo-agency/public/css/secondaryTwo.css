@@ -1,0 +1,133 @@
+.__industries {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.__industries .__content:not(.__industries .embla .__content) {
+    padding: 0 0 50px;
+}
+.__industries .__content h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    color: #000000;
+}
+
+.__industries .__content p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.__industries .embla {
+    max-width: 100%;
+    margin: auto;
+    --slide-spacing: 1rem;
+}
+
+.__industries .embla__container {
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.__industries .embla__slide {
+    flex: 0 0 33%;
+    min-width: 0;
+    width: 00%;
+    padding-left: var(--slide-spacing);
+}
+
+.__industries .embla__slide .embla__slide__img {
+    position: relative;
+    z-index: -10;
+    border-radius: 1.8rem;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.__industries .embla__slide.is-snapped .embla__slide__img {
+    width: 100%;
+}
+
+.__industries .embla__slide {
+    transition: opacity 0.2s ease-in-out;
+}
+
+.__industries .embla__slide:not(.is-snapped) {
+    opacity: 0.5;
+    color: #000000;
+}
+
+.__industries .embla .embla__slide {
+    position: relative;
+}
+.__industries .embla .embla__slide .__content:not(.__content.outterCard){
+    display: none;
+}
+.__industries .embla .embla__slide.is-snapped {
+    flex: 0 0 33%;
+}
+.__industries .embla .embla__slide.is-snapped .__content:not(.__content.outterCard){
+    display: block;
+    position: absolute;
+    width: 96%;
+    margin: 0px auto;
+    z-index: 10;
+    background: #0000007d;
+    height: 100%;
+    top: 0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 0 0 20px;
+}
+
+.__industries .embla .embla__slide__img::before {
+    position: absolute;
+    content: "";
+    background-color: #0000008e;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.__industries .embla .__content h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #ffffff;
+}
+.__industries .embla .embla__slide .__content.outterCard h5{
+    display: block;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #000000;
+} 
+.__industries .embla .__content p {
+    color: #ffffff;
+    min-height: 65px;
+}
+
+.__industries .embla .__content a {
+    color: #ffffff;
+}
+
+.__industries .primaryCTA {
+    width: max-content;
+    margin: 50px auto 0;
+    display: block;
+    line-height: 45px;
+    text-align: center;
+}
