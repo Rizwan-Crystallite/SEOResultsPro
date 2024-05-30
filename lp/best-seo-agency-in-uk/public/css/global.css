@@ -630,6 +630,8 @@ a {
     line-height: 23px;
     margin-bottom: 1.5rem;
     transition: all 0.5s ease-in-out;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 .servicesFold .__cards a {
