@@ -77,6 +77,9 @@
     .awardsSliderFold .contentBox h2 {
         font-size: 32px;
     }
+    .solutionsFold .solutionBox h3 {
+        font-size: 30px;
+    }
 
 }
 
@@ -193,6 +196,15 @@
     .packagesFold .__packageCard .__header p {
         min-height: 95px;
     }
+    .solutionsFold .solutionBox .counterBox .__inner p {
+        font-size: 13px;
+        color: #000000;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .solutionsFold .solutionBox h3 {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -283,7 +295,7 @@
     }
 
     .solutionsFold .contentBox h2 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .solutionsFold .solutionBox .counterBox .__inner h4 {
@@ -291,7 +303,7 @@
     }
 
     .solutionsFold .solutionBox .counterBox .__inner p {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .solutionsFold .solutionBox .counterBox .__inner {
@@ -304,7 +316,7 @@
     }
 
     .solutionsFold .solutionBox h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .solutionsFold .solutionBox p {
@@ -353,6 +365,12 @@
 
     .packagesFold .__packageCard .__header p {
         min-height: 80px;
+    }
+    .industriesFold button.slick-next.slick-arrow {
+        right: 40%;
+    }
+    .industriesFold button.slick-prev.slick-arrow {
+        left: 40%;
     }
 }
 
@@ -414,6 +432,7 @@
         flex-direction: column;
         row-gap: 1rem;
         margin-bottom: 30px;
+        align-items: start;
     }
 
     .solutionsFold .contentBox h2 {
@@ -493,6 +512,15 @@
 
     .servicesFold .__cards {
         padding: 2rem 1rem;
+    }
+    .solutionsFold .solutionBox .counterBox .__inner p {
+        font-size: 14px;
+    }
+    .industriesFold button.slick-next.slick-arrow {
+        right: 35%;
+    }
+    .industriesFold button.slick-prev.slick-arrow {
+        left: 35%;
     }
 }
 
