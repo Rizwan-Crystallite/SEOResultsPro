@@ -58,7 +58,12 @@ a {
     background: linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9257b9", endColorstr="#6575e4", GradientType=1);
     color: #ffffff;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+    );
+    
+           
 }
 
 .secondaryCTA {
@@ -73,7 +78,10 @@ a {
     padding-right: 1.5rem;
     background: #000000;
     color: #fff;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+    );
 }
 
 /* Hero Fold */
@@ -318,7 +326,10 @@ a {
     width: max-content;
     margin-left: auto;
     border: inherit;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+    );
 }
 
 .consultFold2 .formArea form button {
@@ -601,7 +612,10 @@ a {
     border: 1px solid;
     background-color: transparent;
     transition: all 0.5s ease-in-out;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+    );
 }
 
 .servicesFold .contentBox a:hover {
@@ -637,7 +651,7 @@ a {
 .servicesFold .__cards a {
     position: relative;
     display: inline-flex;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     height: 45px;
     align-items: center;
@@ -647,9 +661,12 @@ a {
     color: #000000;
     gap: 0.5rem;
     background-color: #ffffff;
-    width: max-content;
+    width: 100%;
     transition: all 0.5s ease-in-out;
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
+    --slant: 1em;
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant), 100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+    );
 }
 
 .servicesFold .__servicesBg {
@@ -1236,7 +1253,7 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     display: flex;
     width: max-content;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 70px;
 }
 
 .industriesFold .slickContainer .slick-list {
@@ -1255,4 +1272,44 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+
+
+.industriesFold button.slick-next.slick-arrow {
+    position: absolute;
+    left: 49%;
+    top: inherit !important;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.industriesFold button.slick-prev.slick-arrow {
+    top: inherit !important;
+    bottom: -50px;
+    position: absolute;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.industriesFold .slick-next,.industriesFold .slick-prev {
+    background: inherit;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.industriesFold .slick-prev:after {
+    content: url('../media/leftArrow.svg');
+}
+
+.industriesFold .slick-next:after {
+    content: url('../media/rightArrow.svg');
 }

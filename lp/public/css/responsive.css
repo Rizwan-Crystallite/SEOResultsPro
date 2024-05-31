@@ -84,7 +84,11 @@
     .consultFold .contentBox h2 {
         font-size: 35px;
     }
-
+    .servicesFold .__cards a {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 13px;
+    }
     .consultFold2 .contentBox h2 {
         font-size: 25px;
     }
@@ -123,7 +127,7 @@
     }
 
     .servicesFold .__cards a {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .servicesFold .__cards {
@@ -617,9 +621,9 @@
         margin-bottom: 30px;
     }
 
-    .industriesFold .primaryCTA {
+    /* .industriesFold .primaryCTA {
         margin-top: 1rem;
-    }
+    } */
 
     .primaryCTA {
         font-size: 14px;

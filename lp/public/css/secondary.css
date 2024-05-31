@@ -1,5 +1,5 @@
 .__QualifiedLeadsFold {
-    padding: 100px 0;
+    padding: 60px 0;
     position: relative;
     background: linear-gradient(250deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 73%);
     color: #fff;
@@ -25,18 +25,18 @@
     background: radial-gradient(circle, rgba(207, 135, 255, 1) 15%, rgba(179, 101, 230, 1) 71%);
     border-radius: 100px;
     box-shadow: 0 15px 40px #00000027;
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     top: -56px;
-    left: 8%;
+    left: 10%;
 }
 .__QualifiedLeadsFold .__totalCustomer h3{
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 600;
     margin: 0;
 }
@@ -47,10 +47,10 @@
 }
 .__QualifiedLeadsFold .__lastMonth {
     position: absolute;
-    content: '';
-    background: radial-gradient(circle, rgba(106,124,255,1) 0%, rgba(64,88,255,1) 45%);
+    content: "";
+    background: radial-gradient(circle, rgb(106, 124, 255) 0%, rgb(64, 88, 255) 45%);
     border-radius: 100px;
-    box-shadow: 0 15px 40px #00000027;
+    box-shadow: rgba(0, 0, 0, 0.153) 0px 15px 40px;
     width: 100px;
     height: 100px;
     display: flex;
@@ -85,7 +85,7 @@
     flex-direction: column;
     justify-content: center;
     bottom: -30px;
-    left: 15%;
+    left: 20%;
 }
 .__QualifiedLeadsFold .__yearExperience h3{
     font-size: 20px;
@@ -111,7 +111,7 @@
     flex-direction: column;
     justify-content: center;
     bottom: -50px;
-    right: 10%;
+    right: 13%;
 }
 .__QualifiedLeadsFold .__conversionRate h3 {
     font-size: 30px;
@@ -470,6 +470,37 @@
         font-size: 12px;
         line-height: 16px;
     }
+    .__QualifiedLeadsFold h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .__QualifiedLeadsFold .__lastMonth {
+        width:100px;
+        height:100px;
+        top: -36px;
+        right: 3%;
+    }
+    .__QualifiedLeadsFold .__conversionRate {
+        width: 130px;
+        height: 130px;
+        bottom: -50px;
+        right: 6%;
+    }
+    .__QualifiedLeadsFold .__totalCustomer {
+        width: 130px;
+        height: 130px;
+        top: -56px;
+        left: 3%;
+    }
+    .__QualifiedLeadsFold .__yearExperience {
+        width: 100px;
+        height: 100px;
+        bottom: -30px;
+        left: 8%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -535,10 +566,16 @@
         line-height: 40px;
     }
     .__QualifiedLeadsFold .__totalCustomer {
-        width: 120px;
-        height: 120px;
-        top: -36px;
+        width: 150px;
+        height: 150px;
+        top: -85px;
         left: 8%;
+    }
+    .__QualifiedLeadsFold .__lastMonth {
+        width: 100px;
+        height: 100px;
+        top: -50px;
+        right: 3%;
     }
     .__QualifiedLeadsFold .__totalCustomer h3{
         font-size: 25px;
@@ -548,10 +585,10 @@
         font-size: 12px;
         line-height: 20px;
     }
-    .__QualifiedLeadsFold .__conversionRate{
+    .__QualifiedLeadsFold .__conversionRate {
         width: 130px;
         height: 130px;
-        bottom: -50px;
+        bottom: -60px;
         right: 10%;
     }
     .__QualifiedLeadsFold .__conversionRate h3 {
@@ -566,12 +603,6 @@
     .__QualifiedLeadsFold .__QualifiedLeadsFold h2 {
         font-size: 30px;
         line-height: 35px;
-    }
-    .__QualifiedLeadsFold .__totalCustomer {
-        width: 150px;
-        height: 150px;
-        top: -56px;
-        left: 8%;
     }
     .__whyChooseFold .p-5 {
         padding: 1rem !important;
@@ -593,6 +624,10 @@
     }
     .__SeoProcessFold h4 {
         min-height: 0;
+    }
+    .__QualifiedLeadsFold p {
+        font-size: 14px;
+        line-height: 22px;
     }
 }
 @media screen and (max-width: 575px) {

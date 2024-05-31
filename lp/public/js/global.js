@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", function () {
 $('.industriesFold .slickContainer').slick({
     slidesToShow: 3,
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: true,
     variableWidth: true,
     centerMode: true,
@@ -282,5 +282,6 @@ $('.industriesFold .slickContainer').slick({
     cssEase: 'linear',
     loop: true,
     infinite: true,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    draggable: false
 });
