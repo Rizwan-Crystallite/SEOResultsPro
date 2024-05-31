@@ -522,6 +522,10 @@
     .industriesFold button.slick-prev.slick-arrow {
         left: 35%;
     }
+    .consultFold .formArea form button {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -664,5 +668,9 @@
     }
     .servicesFold .__cards h3 {
         min-height: auto;
+    }
+    .servicesFold .contentBox {
+        align-items: center;
+        justify-content: center;
     }
 }
