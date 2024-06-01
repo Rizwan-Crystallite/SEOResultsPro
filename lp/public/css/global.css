@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-behavior: all 1s ease-in-out;
+}
 body {
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
@@ -323,8 +327,8 @@ a {
     padding-right: 1.5rem;
     color: #ffffff;
     background-color: #000000;
-    width: max-content;
-    margin-left: auto;
+    width: 80%;
+    margin: auto;
     border: inherit;
     /* border-radius: 0.3rem; */
     --slant: 1em;
@@ -1079,7 +1083,7 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     font-size: 16px;
     line-height: 1;
     font-weight: 600;
-    color: #000000;
+    color: #fff;
 }
 
 .packagesFold .__packageCard .__listBody::-webkit-scrollbar {
