@@ -24,7 +24,8 @@
                             </div>
                         </li>
                         <li><a href="/about-us/">About</a></li>
-                        <li><a href="/seo-blogs/">Blogs</a></li>
+                        <li><a href="#">Blogs</a></li>
+<!-- <li><a href="/seo-blogs/">Blogs</a></li> -->
                         <li><a href="/contact-us/">Contact Us</a></li>
                         <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ourWebModal"
                                 class="popBtn forMob">Get A Call</a></li>
