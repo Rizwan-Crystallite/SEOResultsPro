@@ -98,7 +98,7 @@ RewriteCond %{HTTP_ACCEPT} image/webp
 RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
 RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 
-<!-- SEO Blogs Redirect -->
+
 Redirect 301 /benefits-of-hiring-an-seo-company/ /
 Redirect 301 /cannabis-seo-in-massachusetts-ma/ /
 Redirect 301 /cannabis-seo-in-new-york-ny/ / 
@@ -228,7 +228,7 @@ Redirect 301 /what-is-xml-sitemap-and-why-seo-agency-services-consider-it-import
 Redirect 301 /how-seo-services-expert-incorporates-off-page-seo-ranking-factors/ /
 Redirect 301 /how-an-seo-agency-for-cbd-industry-obtains-quality-cannabis-backlinks/ /
 Redirect 301 /the-definitive-guide-to-website-audit-by-seo-services-providers/ /
-<!-- SEO Blogs Redirec End -->
+
 
 Redirect 301 /seo-services https://seoresultspro.com/best-seo-services-provider
 Redirect 301 /cannabis-seo-services-for-moden-dispensaries https://seoresultspro.com/cannabis-seo-services-for-modern-dispensaries
