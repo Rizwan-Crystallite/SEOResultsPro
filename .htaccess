@@ -230,7 +230,7 @@ Redirect 301 /how-an-seo-agency-for-cbd-industry-obtains-quality-cannabis-backli
 Redirect 301 /the-definitive-guide-to-website-audit-by-seo-services-providers/ /
 
 
-Redirect 301 /seo-services https://seoresultspro.com/best-seo-services-provider
+# Redirect 301 /seo-services https://seoresultspro.com/best-seo-services-provider
 Redirect 301 /cannabis-seo-services-for-moden-dispensaries https://seoresultspro.com/cannabis-seo-services-for-modern-dispensaries
 Redirect 301 /website-design https://seoresultspro.com/website-design-agency
 Redirect 301 /best-seo-services-provider/best-seo-services-provider/ /best-seo-services-provider

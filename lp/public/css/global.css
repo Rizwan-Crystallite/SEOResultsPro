@@ -704,16 +704,28 @@ a {
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+.servicesFold .__cards:hover::before {
+    transform: translateY(0);
 }
 
-.servicesFold .__cards:hover {
+.servicesFold .__cards::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
     background-color: #4e4e4e;
     cursor: pointer;
     backdrop-filter: blur(100px);
     border-bottom-color: #8e5abd;
+    transform: translateY(100%);
+    transition: all 0.5s ease;
 }
-
-
 .servicesFold .__cards:hover a {
     background: rgb(146, 87, 185);
     background: -moz-linear-gradient(90deg, rgba(146, 87, 185, 1) 0%, rgba(101, 117, 228, 1) 53%);
