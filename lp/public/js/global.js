@@ -152,9 +152,54 @@ emblaApiForReviews.on('destroy', removeDotBtnsAndClickHandlersForReviews)
 // Solutotions Slider
 const emblaNodeForSolutions = document.querySelector('.solutionsFold .embla')
 const dotsNodeForSolutions = emblaNodeForSolutions.querySelector('.emblaDots')
+const prevBtnNodeForSolutions = emblaNodeForSolutions.querySelector('.embla__button--prev')
+const nextBtnNodeForSolutions = emblaNodeForSolutions.querySelector('.embla__button--next')
 const totalSlidesNodeForSolutions = emblaNodeForSolutions.querySelector('.totalSlides') // Selecting the totalSlides element
 const optionsForSolutions = { loop: true }
 const emblaApiForSolutions = EmblaCarousel(emblaNodeForSolutions, optionsForSolutions)
+
+const addTogglePrevNextBtnsActiveForSolutions = (emblaApiForSolutions, prevBtnNodeForSolutions, nextBtnNodeForSolutions) => {
+    const togglePrevNextBtnsState = () => {
+        if (emblaApiForSolutions.canScrollPrev()) prevBtnNodeForSolutions.removeAttribute('disabled')
+        else prevBtnNodeForSolutions.setAttribute('disabled', 'disabled')
+
+        if (emblaApiForSolutions.canScrollNext()) nextBtnNodeForSolutions.removeAttribute('disabled')
+        else nextBtnNodeForSolutions.setAttribute('disabled', 'disabled')
+    }
+
+    emblaApiForSolutions
+        .on('select', togglePrevNextBtnsState)
+        .on('init', togglePrevNextBtnsState)
+        .on('reInit', togglePrevNextBtnsState)
+
+    return () => {
+        prevBtnNodeForSolutions.removeAttribute('disabled')
+        nextBtnNodeForSolutions.removeAttribute('disabled')
+    }
+}
+
+const addPrevNextBtnsClickHandlersForSolutions = (emblaApiForSolutions, prevBtnNodeForSolutions, nextBtnNodeForSolutions) => {
+    const scrollPrev = () => {
+        emblaApiForSolutions.scrollPrev()
+    }
+    const scrollNext = () => {
+        emblaApiForSolutions.scrollNext()
+    }
+    prevBtnNodeForSolutions.addEventListener('click', scrollPrev, false)
+    nextBtnNodeForSolutions.addEventListener('click', scrollNext, false)
+
+    const removeTogglePrevNextBtnsActive = addTogglePrevNextBtnsActiveForSolutions(
+        emblaApiForSolutions,
+        prevBtnNodeForSolutions,
+        nextBtnNodeForSolutions
+    )
+
+    return () => {
+        removeTogglePrevNextBtnsActive()
+        prevBtnNodeForSolutions.removeEventListener('click', scrollPrev, false)
+        nextBtnNodeForSolutions.removeEventListener('click', scrollNext, false)
+    }
+}
 
 const addDotBtnsAndClickHandlersForSolutions = (emblaApiForSolutions, dotsNodeForSolutions, totalSlidesNodeForSolutions) => {
     let dotNodes = []
@@ -201,6 +246,12 @@ const removeDotBtnsAndClickHandlersForSolutions = addDotBtnsAndClickHandlersForS
     dotsNodeForSolutions,
     totalSlidesNodeForSolutions
 )
+const removePrevNextBtnsClickHandlersForSolutions = addPrevNextBtnsClickHandlersForSolutions(
+    emblaApiForSolutions,
+    prevBtnNodeForSolutions,
+    nextBtnNodeForSolutions
+)
+emblaApiForSolutions.on('destroy', removePrevNextBtnsClickHandlersForSolutions)
 emblaApiForSolutions.on('destroy', removeDotBtnsAndClickHandlersForSolutions)
 
 // Hero Fold

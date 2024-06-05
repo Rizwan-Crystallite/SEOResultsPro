@@ -197,13 +197,17 @@
         min-height: 95px;
     }
     .solutionsFold .solutionBox .counterBox .__inner p {
-        font-size: 13px;
+        font-size: 12px;
         color: #000000;
         line-height: 1;
         margin-bottom: 0;
     }
     .solutionsFold .solutionBox h3 {
         font-size: 26px;
+    }
+    .solutionsFold .solutionBox p {
+        font-size: 13px;
+        text-align: justify;
     }
 }
 
@@ -317,11 +321,6 @@
 
     .solutionsFold .solutionBox h3 {
         font-size: 20px;
-    }
-
-    .solutionsFold .solutionBox p {
-        font-size: 14px;
-        text-align: justify;
     }
 
     .heroFold .transformSlides {
@@ -514,7 +513,7 @@
         padding: 2rem 1rem;
     }
     .solutionsFold .solutionBox .counterBox .__inner p {
-        font-size: 14px;
+        font-size: 11px;
     }
     .industriesFold button.slick-next.slick-arrow {
         right: 35%;
@@ -525,6 +524,18 @@
     .consultFold .formArea form button {
         width: 80%;
         margin: auto;
+    }
+    .solutionsFold .embla .emblaControls .emblaButtons button.embla__button--next {
+        bottom: 0;
+        left: 50px;
+        right: inherit;
+    }
+    
+    .solutionsFold .embla .emblaControls .emblaButtons button.embla__button--prev {
+        bottom: 0;
+    }
+    .solutionsFold .embla .emblaControls {
+        margin-top: 3rem;
     }
 }
 
