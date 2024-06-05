@@ -525,17 +525,19 @@
         width: 80%;
         margin: auto;
     }
-    .solutionsFold .embla .emblaControls .emblaButtons button.embla__button--next {
-        bottom: 0;
-        left: 50px;
-        right: inherit;
-    }
-    
-    .solutionsFold .embla .emblaControls .emblaButtons button.embla__button--prev {
-        bottom: 0;
-    }
     .solutionsFold .embla .emblaControls {
-        margin-top: 3rem;
+        margin-top: 2rem;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .solutionsFold .embla .emblaControls .emblaButtons button {
+        position: static !important;
+    }
+    .solutionsFold .embla .emblaControls .emblaButtons {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        gap: 1rem;
     }
 }
 
