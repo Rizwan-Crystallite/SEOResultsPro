@@ -1160,7 +1160,7 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     border: 1px solid;
     border-radius: 0.5rem;
     width: 250px;
-    padding: 0.2rem 0;
+    padding: 0.75rem 0;
 }
 
 .packagesFold .nav.nav-tabs button span {
