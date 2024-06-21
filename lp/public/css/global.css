@@ -1018,6 +1018,29 @@ header .mainHeader .__hamburger.is-active .__line:nth-child(3) {
     margin-bottom: 1rem;
 }
 
+.packagesFoldNew .__packageCard .__header h6 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 0.6;
+}
+
+.packagesFoldNew .__packageCard .__header h6 span{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.6;
+}
+
+.packagesFoldNew .__packageCard .__header h5 {
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #9257B9;
+    /* color: #707070; */
+    margin-bottom: 1rem;
+}
+
 .packagesFold .__packageCard .__header a {
     position: relative;
     display: inline-flex;
