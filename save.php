@@ -13,7 +13,7 @@
     parse_str($_POST['form'], $params);
 	$form_name = $params['hiddenform'];
 
-    $api_url = 'https://sheetdb.io/api/v1/kjmfs3bnx8g0c';
+    $api_url = 'https://sheetdb.io/api/v1/y1dgzpu8ani8s';
 
 	// Data to send
     $data = array(
@@ -77,7 +77,7 @@ if($params['name'] == "" || $params['phone'] == "" || $params['email'] == ""){
         $mail->Username="signups@seoresultspro.com";
         $mail->Password="JVdyYm3*BQ4h5dD&";
         $mail->SetFrom("signups@seoresultspro.com");
-        $mail->addAddress("dev.bwc.hk@production-dev.com");
+        $mail->addAddress("dev.bwc.hk@productions-dev.com");
         $mail->IsHTML(true);
         $mail->Subject="Lead Form - SEO RESULTS PRO";
         $mail->Body=$html;
