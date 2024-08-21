@@ -125,11 +125,24 @@ if ($params['name'] == "" || $params['phone'] == "" || $params['email'] == "") {
 $url = 'https://brandsapi.cryscampus.com/api/v1/leads'; // Replace with your target URL
 
 
+// Data to send
+$data2 = array(
+    'name' => $params['name'],
+    'phone' => $params['phone'],
+    'email' => $params['email'],
+    'comments' => $params['comments'],
+    'ip' => $clientIP,
+    'pageurl' => $pageURL,
+    'formName' => $form_name,
+    'jsonData' => json_encode($params),
+    'created_date' => $date,
+);
+
 // Data to be sent in the request
 $data = array(
     'page_url' => $pageURL,
     'user_ip' => $clientIP,
-    'lead_data' => $data
+    'lead_data' => $data2
 );
 // Initialize cURL session
 $ch = curl_init($url);
