@@ -127,7 +127,7 @@ $url = 'https://brandsapi.cryscampus.com/api/v1/leads'; // Replace with your tar
 
 // Data to send
 $data2 = array(
-    'name' => $params['name'],
+    'name' => $name,
     'phone' => $params['phone'],
     'email' => $params['email'],
     'message' => $params['comments'],
@@ -139,7 +139,7 @@ $data2 = array(
 );
 
 // Data to be sent in the request
-$data = array(
+$data3 = array(
     'page_url' => $pageURL,
     'user_ip' => $clientIP,
     'lead_data' => $data2
@@ -149,10 +149,10 @@ $ch = curl_init($url);
 // Set the necessary cURL options
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
 curl_setopt($ch, CURLOPT_POST, true); // Specify the request type as POST
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data)); // Encode the data array to JSON and set it as POST fields
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data3)); // Encode the data array to JSON and set it as POST fields
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Content-Type: application/json', // Set the content type to JSON
-    'Content-Length: ' . strlen(json_encode($data)) // Set the content length
+    'Content-Length: ' . strlen(json_encode($data3)) // Set the content length
 ));
 // Execute the cURL request and get the response
 $response = curl_exec($ch);
