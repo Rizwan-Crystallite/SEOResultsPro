@@ -43,7 +43,7 @@
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
    $mail->Username="signups@seoresultspro.com";
-	$mail->Password="JVdyYm3*BQ4h5dD&";
+	$mail->Password="&F6E8TSM2YS&3dH>";
 	$mail->SetFrom("signups@seoresultspro.com");
 	$mail->addAddress("signups@seoresultspro.com");
 // 	$mail->addAddress("support@seoresultspro.com");
