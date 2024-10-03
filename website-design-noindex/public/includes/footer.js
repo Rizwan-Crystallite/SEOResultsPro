@@ -54,10 +54,10 @@ $("footer").html(`<div class="container">
             <h6 class="text-black text-uppercase font-17 fw-600 mb-4">Get In Touch</h6>
             <ul class="links">
                 <li>
-                    <a href="tel:1-213-477-7023" class="font-15 text-black"> 
+                    <a href="tel:(833)-800-0083" class="font-15 text-black"> 
                         <span class="me-1">
                             <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/1262e3b2-ebfc-443d-68a1-868d28ccfb00/public" alt="call" width="17" />
-                        </span> 1-213-477-7023
+                        </span> (833)-800-0083
                     </a>
                 </li>
                 <li><a href="mailto:support@seoresultspro.com" class="font-15 text-black">

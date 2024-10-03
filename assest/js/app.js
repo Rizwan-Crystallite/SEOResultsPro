@@ -21,7 +21,8 @@ let header = ` <div class="container">
             <li><a href="/best-seo-services-provider/">SEO</a></li>
             <li><a href="/website-design-agency/">Web Design</a></li>
             <li><a href="/about-us/">About</a></li>
-            <li><a href="/seo-blogs/">Blogs</a></li>
+            <li><a href="#">Blogs</a></li>
+<!-- <li><a href="/seo-blogs/">Blogs</a></li> -->
             <li><a href="/contact-us/">Contact Us</a></li>
             <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ourWebModal"
                     class="popBtn forMob">Get A Call</a></li>
@@ -125,11 +126,11 @@ let postFooter = `
                         </a>
                     </li>
                     <li>
-                        <a href="tel:1-213-477-7023" class="font-15 text-black">
+                        <a href="tel:(833)-800-0083" class="font-15 text-black">
                             <span class="me-1">
                                 <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/1262e3b2-ebfc-443d-68a1-868d28ccfb00/public"
                                     alt="call" width="12" height="12">
-                            </span> 1-213-477-7023
+                            </span> (833)-800-0083
                         </a>
                     </li>
                     <li><a href="mailto:support@seoresultspro.com" class="font-15 text-black">

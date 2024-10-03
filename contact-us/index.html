@@ -117,7 +117,8 @@
                         <li><a href="/best-seo-services-provider/">SEO</a></li>
                         <li><a href="/website-design-agency/">Web Design</a></li>
                         <li><a href="/about-us/">About</a></li>
-                        <li><a href="/seo-blogs/">Blogs</a></li>
+                        <li><a href="#">Blogs</a></li>
+<!-- <li><a href="/seo-blogs/">Blogs</a></li> -->
                         <li><a href="/contact-us/">Contact Us</a></li>
                         <li><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ourWebModal"
                                 class="popBtn forMob">Get A Call</a></li>
@@ -457,7 +458,7 @@
         </div>
     </footer>
     <section class="copyright py-3">
-        <p class="text-center text-uppercase m-0 font-12 font-primary">copyrights 2023 ALL RESERVED - Bhaoo INC</p>
+        <p class="text-center text-uppercase m-0 font-12 font-primary">COPYRIGHTS 2024 ALL RESERVED - Bhaoo INC</p>
     </section>
     <!--<div class="webiste-loader">-->
     <!--    <span>Loading...</span>-->
@@ -558,6 +559,10 @@ jQuery("#leadPopupForm").submit(function(){event.preventDefault();let t=jQuery("
 let client_ip;$.getJSON("https://api.ipify.org?format=json",function(t){client_ip=t.ip}),jQuery("form").submit(function(t){t.preventDefault(),(async()=>{await fetch("https://api-bdc.net/data/country-by-ip?ip="+client_ip+"&localityLanguage=en&key=bdc_36c0e150fd424f4f97eb61afcc4cf637").then(t=>{t.json().then(t=>{console.log(t);let e={pageURL:window.location.href,ip:t.ip,form:$(this).serialize()};$.ajax({url:"https://seoresultspro.com/save.php",type:"POST",data:e,beforeSend(){$("form  button").attr("disabled"),$("form  button").html('<div class="container  text-center"><div class="spinner-border " role="status"><span class="visually-hidden">Loading...</span></div></div>')},success:function(t){window.location.href="https://seoresultspro.com/thankyou"}}).fail(t=>{console.log(t)})})}).catch(t=>{console.log(t)})})()});
         // jQuery("#SEOAuditForm").submit(function(){event.preventDefault();let t=jQuery("#SEOAuditForm").serialize();$.ajax({url:"../save.php",type:"POST",data:t,cache:1,success:function(t){window.location.replace("/thankyou")}})}),
     </script>
+<script 
+   defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
+>
+</script>
 </body>
 
 </html>

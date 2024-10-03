@@ -19,18 +19,18 @@ $("header").html(`<div class="container">
         <a href="/" class="nav-logo-m">
         <img src="../public/images/logo-black.svg" alt="logo" width="280" />
         </a>
-        <a href="tel:1-213-477-7023" class="nav-btn">
+        <a href="tel:(833)-800-0083" class="nav-btn">
             Get a Call
             <span><img
                     src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/19664d00-295d-4565-7a34-a83740f29600/public"
-                    alt="call" width="19" height="19" /> 1-213-477-7023</span>
+                    alt="call" width="19" height="19" /> (833)-800-0083</span>
         </a>
         <div class="nav-toggle">
             <span class="lines"></span>
             <span class="lines"></span>
             <span class="lines"></span>
         </div>
-        <a href="tel:1-213-477-7023" class="nav-btn-m">
+        <a href="tel:(833)-800-0083" class="nav-btn-m">
             <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/19664d00-295d-4565-7a34-a83740f29600/public"
                 alt="call" width="19" height="19" />
         </a>

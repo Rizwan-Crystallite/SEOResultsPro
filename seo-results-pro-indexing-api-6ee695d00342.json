@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "seo-results-pro-indexing-api",
+  "private_key_id": "6ee695d003424c10f32fb41a78dc7f351e2ed755",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC+kE62//2Zl3Sf\naIjhoUO2DB1bhjr5uYiQr/qWPWLZYcGWBihkMBAmT6pqu1I54mGdB30TzcQgj+PK\n4aA21PvaprOJ9ZRJ4x4G3q28qLLTmqsRM28TALV4WhZHPPj+ZfSmEeMUlKTlumpC\n8n5aUsfAPKmdDdAz+w2dGnsZ1Hhsz3Djn9KNwA6+EFWGVBsIiXLvUKcn+1/TVd5p\nX0WgiSlsWgs37TOWcyQ3M4IPfTtI36mkpFKcv/SoA2o9d22SVEnYs8yRe+A52jGF\niqaruqzQZBxd05peAgz1UBBwe8A4pdzkn5xqB9N/V3CMKVMCKPmQ1deiXcsL0Aah\nRhs61o5bAgMBAAECggEAE76zET4UAkKRqGS17h79+5JkxlNxr+db8ZXyUnfY0qpQ\n2yEXNU5PlhCiGT4AhpPgxlr8yD0FSdRu51oadiP6Voz4RF6oN0Grnk2bVdVq9gbs\nG7OnGiJ0Kxy2ezojmIRq5Xwr+blvHoiCsx4aHnS+UrpWXroMLR6hqfoQ8Du2IJvt\nnJmSwSXPnLP9IFb/TSbxMh2b9peXqvTa02E7Rg3V9brTOI42WXP3tPKbi3P/Ri/r\nresvuzvvVhmzlqkrooIQABZECYQJHTtJ9w5Wz0qZnGvpWTM/7dyMyIDkiXN6+67z\nB0cd/aKAV/vyIOy54imOFU8qXK8kmJV/B+xkE3qkpQKBgQD+hLEbqHi8e8j2r8i6\nc4qC9SdVa45dOu3348cNn0VKylbn1zy+i3jEN0aoJqX/PXlrK7BeSKHz2vb/nS+o\nnxwuK0WFjVZwic+7GRYpmnuthPfo7hgkTcTUlS0JeDqEjAHLwcm783k14ul4roKI\nWsqozBdDrGTBgflEcsw/0yzbVwKBgQC/rE3fwPimqwYP5rtYSE4wHwBbBXxc7Aq3\nB7teM+3uvzzW6IYfvbNS5vmYEI5LvVDfkciExzB5LMRFXXd3mjPiq3qtCjaQ30hD\njcBTnJGesDF0XrnapGGJ17a24e+YyVoN7EwcpCe74m1StUyopyAtVf37gkDYPMvI\nl/Gl4FAGnQKBgQDkl26uRaCywIadMQIam91Cg0ahjKlfiKbkZlqIHI1Sf+qP7Zus\nE34S1QaLzbJ3TNI5dBLCi3+Rkg8XQyjjzIu1171oFqoVB2FgTEbAdPQxw2QZe4aJ\nTKPEvnqlr6r3Evwl8dXrDeDGihdhAXNRXiH4et1GNZaEyeSEGorhpBv8nwKBgQCH\nGfpiBvC8+btyJd5TodOK0686eSlpje8Xh9mn0s6ZBC7sBEXVxa7KdofjiXfjJvQE\nQgumm4gtQUKu6ey1XvnHgbsckSBZCSk0hIvV43w48FRLhCFYXZlqwaPGUIbDmNlj\nCvWzEnn3Uuhf7e60yehCTGSTjQIL6P5yy7bGhs+heQKBgQDwgtJpXJvf5Ixx/ibu\nD6q4Z143qZtdUZtfGOZXYu3BgTfNvWWhWmv8kKfex6FYy9h0/QftesJZZgEtO88P\nF1NJO2CuGCHQQrLvZnlnjkyoa5DlmDN/HXbKXPVIQ4VCpDZ7Tzm9h8XbtigU81wk\nm3KVW+AerOCWWUjW30xR3huJow==\n-----END PRIVATE KEY-----\n",
+  "client_email": "srp-api-service-account@seo-results-pro-indexing-api.iam.gserviceaccount.com",
+  "client_id": "103101924604507213924",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/srp-api-service-account%40seo-results-pro-indexing-api.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

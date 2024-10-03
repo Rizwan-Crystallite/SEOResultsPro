@@ -77,5 +77,9 @@ if(isset($_POST['submit'])){
       <script src="assets/js/popper.min.js" type="text/javascript"></script>
       <script src="assets/js/plugins.js" type="text/javascript"></script>
       <script src="assets/js/main.js" type="text/javascript"></script>
-   </body>
+   <script 
+   defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
+>
+</script>
+</body>
 </html>
