@@ -80,7 +80,7 @@
                     </div>
                     <div class="nav--contact">
                         <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                        <a href="javascript:$zopim.livechat.window.show();" class="agent-avatar">
+                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="agent-avatar">
                             <span>initial consultation</span>
                             Contact: <strong>Jessica</strong>
                         </a>
@@ -692,7 +692,7 @@
                     <div class="pt-3 d-flex justify-content-center flex-wrap gap-3 mb-md-0 mb-5">
 
                         <div class="text-center">
-                            <a href="javascript:$zopim.livechat.window.show();" data-bs-toggle="modal"
+                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" data-bs-toggle="modal"
                                 data-bs-target="#ourWebModal"
                                 class="btn btn-secondary text-uppercase f_inter fw-500">Talk To An Seo Expert<span
                                     class="px-2"></span> <img src="images/rocket_icon.svg" class="img-fluid"
@@ -1630,7 +1630,7 @@
             <span class="icon">
                 <img width="30" height="30" alt="SRP" class="img-fluid" src="images/chat-icon.png" loading="lazy">
                 <div class="txtBody">
-                    <a href="javascript:$zopim.livechat.window.show();">Chat Now</a>
+                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;">Chat Now</a>
                 </div>
             </span>
         </div>
@@ -1980,7 +1980,7 @@
         $(".__reviewsWidget .__google").on("click", () => { "none" === $(".__reviewsSidebar.__google").css("display") && $(".__reviewsSidebar.__google").css("display", "block") }), $(".__reviewsWidget .__facebook").on("click", () => { "none" === $(".__reviewsSidebar.__facebook").css("display") && $(".__reviewsSidebar.__facebook").css("display", "block") }), $(".__reviewsSidebar .__close").on("click", () => { "block" === $(".__reviewsSidebar.__google").css("display") && $(".__reviewsSidebar.__google").css("display", "none"), "block" === $(".__reviewsSidebar.__facebook").css("display") && $(".__reviewsSidebar.__facebook").css("display", "none") });
     </script>
     <script>
-        const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../public/app/zendesk-chat.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
+        const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../../public/app/chat.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
     </script>
 <script 
    defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"

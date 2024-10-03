@@ -137,7 +137,7 @@
             <div class="row justify-content-center align-items-center mt-4">
                 <div class="col-lg-6">
                     <div class="text-center">
-                        <a href="javascript:$zopim.livechat.window.show();" rel="noopener noreferrer"
+                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
                             class="__font16 __fw600 text-white px-4 pt-3 pb-3 relative w-100 box-shadow-h gredient-11">Here’s
                             what you get when you sign up:</a>
                         <!-- <h4 class="btn primary-btn mb-2">Here’s what you get when you <span class="__fw600">sign up:</span></h4> -->

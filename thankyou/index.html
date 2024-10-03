@@ -124,7 +124,7 @@
                         <span>Get A Call</span>
                     </a>
                     <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                    <a href="javascript:$zopim.livechat.window.show();" class="agent-avatar">
+                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="agent-avatar">
                         <span>initial consultation</span> Contact: <strong>Jessica</strong> </a>
                 </div>
             </nav>
@@ -292,7 +292,8 @@
     <!-- Custom JS -->
     <script src="../public/app/main.js" async></script>
     <script src="../public/app/footer.js" async></script>
-    <script src="../public/app/zendesk-chat.js" async></script>
+      <script src="../public/app/chat.js"></script>
+    <noscript><a href="https://www.livechat.com/chat-with/18650526/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
     <script>
         AOS.init();
     </script>

@@ -151,7 +151,7 @@
                         <span>Get A Call</span>
                     </a>
                     <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                    <a href="javascript:$zopim.livechat.window.show();" class="agent-avatar">
+                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="agent-avatar">
                         <span>initial consultation</span>
                         Contact: <strong>Jessica</strong>
                     </a>
@@ -313,7 +313,7 @@
                     data-aos-easing="ease-in-sine" data-aos-duration="500">We help companies make a breakthrough in the
                     digital landscape with our expertise in <a href="/website-design-agency/" class="text-black">web design</a>, SEO, and 
                     <a href="/best-seo-services-provider/" class="text-black">content marketing</a>. </p>
-                <a href="javascript:$zopim.livechat.window.show();" class="primary-btn text-center wow fadeInUp"
+                <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="primary-btn text-center wow fadeInUp"
                     data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="500">
                     Get Started
                 </a>
@@ -504,7 +504,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="javascript:$zopim.livechat.window.show();"
+                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;"
                         class="simpleTxt-btn text-uppercase font-20 text-l-purple fw-700 d-block text-center my-3 wow fadeInUp"
                         data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="500">
                         talk to an SEO expert
@@ -918,7 +918,8 @@
     <script src="public/app/main.js" defer></script>
     <script src="public/app/footer.js" defer></script>
     <script src="public/app/homegsap.js" defer></script>
-    <!--<script src="public/app/zendesk-chat.js" defer></script>-->
+    <script src="../public/app/chat.js"></script>
+    <noscript><a href="https://www.livechat.com/chat-with/18650526/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
     <script>
 jQuery("#SEOAuditForm").submit(function(){event.preventDefault();let e=jQuery("#SEOAuditForm").serialize();$.ajax({url:"save.php",type:"POST",data:e,cache:1,beforeSend:function(){$("#SEOAuditForm button").html('<div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>')},success:function(e){window.location.replace("/thankyou"),console.log(e)}})}),jQuery("#leadPopupForm").submit(function(){event.preventDefault();let e=jQuery("#leadPopupForm").serialize();$.ajax({url:"save.php",type:"POST",data:e,cache:1,beforeSend:function(){$("#leadPopupForm button").html('<div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>')},success:function(e){window.location.replace("/thankyou"),console.log(e)}})}),jQuery("#leadForm").submit(function(){event.preventDefault();let e=jQuery("#leadForm").serialize();$.ajax({url:"save.php",type:"POST",data:e,cache:1,beforeSend:function(){$("#leadForm button").html('<div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>')},success:function(e){window.location.replace("/thankyou"),console.log(e)}})});
     </script>
