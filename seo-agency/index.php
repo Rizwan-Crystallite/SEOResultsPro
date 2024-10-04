@@ -80,7 +80,7 @@
                     </div>
                     <div class="nav--contact">
                         <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                        <a href="javascript:$zopim.livechat.window.show();" class="agent-avatar">
+                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" class="agent-avatar">
                             <span>initial consultation</span>
                             Contact: <strong>Jessica</strong>
                         </a>
@@ -692,7 +692,7 @@
                     <div class="pt-3 d-flex justify-content-center flex-wrap gap-3 mb-md-0 mb-5">
 
                         <div class="text-center">
-                            <a href="javascript:$zopim.livechat.window.show();" data-bs-toggle="modal"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" data-bs-toggle="modal"
                                 data-bs-target="#ourWebModal"
                                 class="btn btn-secondary text-uppercase f_inter fw-500">Talk To An Seo Expert<span
                                     class="px-2"></span> <img src="images/rocket_icon.svg" class="img-fluid"
@@ -1630,7 +1630,7 @@
             <span class="icon">
                 <img width="30" height="30" alt="SRP" class="img-fluid" src="images/chat-icon.png" loading="lazy">
                 <div class="txtBody">
-                    <a href="javascript:$zopim.livechat.window.show();">Chat Now</a>
+                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;">Chat Now</a>
                 </div>
             </span>
         </div>

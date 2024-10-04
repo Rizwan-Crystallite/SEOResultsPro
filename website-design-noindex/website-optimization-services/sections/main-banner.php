@@ -11,7 +11,7 @@
 
                     <div class="pb-3 pt-4 mx-md-0 mx-3 homeBannerbtn">
                         <a href="tel:(717)-400-0010" class="me-3 btn secondary-btn fw-700" rel="noopener noreferrer">Book A Call</a>
-                        <a href="javascript:$zopim.livechat.window.show();" rel="noopener noreferrer" class="ml-3 btn secondary-btn fw-700 senc">Live Chat</a>
+                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="ml-3 btn secondary-btn fw-700 senc">Live Chat</a>
 
                     </div>
 

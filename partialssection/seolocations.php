@@ -5,7 +5,7 @@
                 <h2>Providing SEO services <br> to multiple cities across <br> USA & Canada</h2>
                 <div class="cta-box">
                     <a href="tel:(833)-800-0083" rel="noopener noreferrer" style="background:linear-gradient(to right, #069647, #05532b);" class="primary-btn">CALL NOW</a>
-                    <a href="javascript:$zopim.livechat.window.show();" rel="noopener noreferrer" style="background-color: transparent" class="secondary-btn">CHAT NOW</a>
+                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" style="background-color: transparent" class="secondary-btn">CHAT NOW</a>
                 </div>
             </div>
             <div class="col-xl-7">
