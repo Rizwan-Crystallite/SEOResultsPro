@@ -66,7 +66,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -118,7 +118,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -169,7 +169,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -235,7 +235,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -299,7 +299,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -376,7 +376,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -427,7 +427,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -479,7 +479,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -530,7 +530,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -594,7 +594,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -658,7 +658,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -735,7 +735,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -794,7 +794,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -844,7 +844,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -901,7 +901,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -952,7 +952,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -1007,7 +1007,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -1086,7 +1086,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -1137,7 +1137,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -1187,7 +1187,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -1244,7 +1244,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="__font14 __fw500 pt-3 text-white line-height-1">
@@ -1293,7 +1293,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -1372,7 +1372,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">
@@ -1451,7 +1451,7 @@
                                         </ul>
                                     </div>
                                     <div class="pt-4 pb-3 text-left">
-                                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
+                                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn btn-primary2">Order Now</a>
 
                                     </div>
                                     <p class="font-14 fw-500 pt-3 text-white line-height-1">

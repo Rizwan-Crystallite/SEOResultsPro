@@ -12,7 +12,7 @@
                     <p>Your competitors have already invested in the power of DIGITAL; if you want to leave them in the dust, you must embrace the latest marketing tactics that are none other than digital marketing solutions!</p>
                     <p>Being a business owner, you may wear many hats, and capitalizing on unorthodox promotional activities may not be high on your list. But don’t need to worry. SeoResultsPro is here to pull off the marketing strain from your shoulders. With digital marketing maestros, we widen the opportunity to help you break the saturated business landscape.</p>
                     <div class="cta-box">
-                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="primary-btn">Talk to an Expert</a>
+                        <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="primary-btn">Talk to an Expert</a>
                         <a href="tel:(833)-800-0083" rel="noopener noreferrer" style="background: #000 !important;" class="secondary-btn">Call Now</a>
                     </div>
                 </div>

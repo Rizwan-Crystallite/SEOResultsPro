@@ -56,7 +56,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -110,7 +110,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -169,7 +169,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -251,7 +251,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -371,7 +371,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -428,7 +428,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -482,7 +482,7 @@
                                 </ul>
                             </div>
                             <div class="pt-4 pb-3 text-left">
-                                <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                     class="btn btn-primary2">Order Now</a>
 
                             </div>
@@ -541,7 +541,7 @@
                                 </ul>
                             </div>
                             <div class="pt-4 pb-3 text-left">
-                                <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                     class="btn btn-primary2">Order Now</a>
 
                             </div>
@@ -608,7 +608,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -728,7 +728,7 @@
                                 </ul>
                             </div>
                             <div class="pt-4 pb-3 text-left">
-                                <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer"
+                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
                                     class="btn btn-primary2">Order Now</a>
 
                             </div>
@@ -836,7 +836,7 @@
                 <div class="bgsales text-center">
                     <h5 class="line-through lineheight __font22 __fw900 text-center text-red">$5999</h5>
                     <h3 class="__font40 __fw900 lineheight text-center text-black">$3999</h3>
-                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="btn btn-primary2 text-center">Order
+                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" class="btn btn-primary2 text-center">Order
                         Now</a>
                     <p class="pt-3 __font12 __fw500 text-center text-black">20% more OFF on Next Order</p>
                 </div>

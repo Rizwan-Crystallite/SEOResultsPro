@@ -45,7 +45,7 @@
                         <span>Get A Call</span>
                     </a>
                     <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="agent-avatar">
+                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" class="agent-avatar">
                         <span>initial consultation</span>
                         Contact: <strong>Jessica</strong>
                     </a>

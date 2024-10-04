@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="call-box mx-2 pt-4 pb-4 pl-3 pr-3 text-center mt-5">
-                                <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;">
+                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;">
                                     <img src="../webimages/images/newimg/bubble-chat.svg" width="79" height="79"
                                         class="img-fluid pb-4" alt="big_sale">
                                     <h3 class="__font20 __fw700 text-white">Live Chat</h3>
@@ -85,7 +85,7 @@
                 <div class="bgsales text-center">
                     <h5 class="line-through lineheight __font22 __fw900 text-center text-red">$7999</h5>
                     <h3 class="__font40 __fw900 lineheight text-center text-black">$5999</h3>
-                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" class="btn btn-primary2 text-center">Order
+                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" class="btn btn-primary2 text-center">Order
                         Now</a>
                     <p class="pt-3 __font12 __fw500 text-center text-black">20% more OFF on Next Order</p>
                 </div>

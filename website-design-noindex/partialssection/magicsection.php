@@ -121,7 +121,7 @@
         <div class="row justify-content-center position-relative btngrow">
             <div class="col-lg-12">
                 <div class="pb-3 pt-4 text-center mx-md-0 mx-3">
-                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="btn primary-btn mb-2">Get a Quote</a>
+                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer" class="btn primary-btn mb-2">Get a Quote</a>
                     <a href="tel:(833)-800-0083" class="ml-3 btn secondary-btn fw-700 mb-2" rel="noopener noreferrer">(833)-800-0083</a>
                 </div>
             </div>
