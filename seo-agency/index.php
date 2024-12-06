@@ -1548,7 +1548,7 @@
                         <a href="/terms-and-conditions/" class="text-white px-2 mobilenone">Terms And Conditions</a> |
                         <a class="text-white px-2 mobilenone" href="/privacy-policy/">Privacy Policy</a> | COPYRIGHTS
                         2024 ALL
-                        RESERVED - BHAOO INC
+                        RESERVED
                     </p>
 
                 </div>
