@@ -140,7 +140,7 @@
     <div class="row justify-content-center position-relative btngrow mt-xxl-5">
         <div class="col-lg-12 mt-xxl-5">
             <div class="pb-3 pt-3 text-center mx-md-0 mx-3">
-                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                     class="btn primary-btn animate__fadeInRightBig wow">Chat Now</a>
                 <a href="tel:(833)-800-0083" class="ml-3 btn secondary-btn fw-700"
                     rel="noopener noreferrer">(833)-800-0083</a>

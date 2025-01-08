@@ -7,7 +7,7 @@
                         USA & Canada</h3>
                     <div class=" position-relative btngrow">
                         <div class="pb-3 pt-4">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn primary-btn">Chat Now</a>
                             <a href="tel:(833)-800-0083" class="ml-3 btn secondary-btn fw-700"
                                 rel="noopener noreferrer">(833)-800-0083</a>

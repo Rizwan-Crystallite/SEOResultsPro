@@ -57,7 +57,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -111,7 +111,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -170,7 +170,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -252,7 +252,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -372,7 +372,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -428,7 +428,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -482,7 +482,7 @@
                                 </ul>
                             </div>
                             <div class="pt-4 pb-3 text-left">
-                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                                <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                     class="btn btn-primary2">Order Now</a>
 
                             </div>
@@ -541,7 +541,7 @@
                                 </ul>
                             </div>
                             <div class="pt-4 pb-3 text-left">
-                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                                <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                     class="btn btn-primary2">Order Now</a>
 
                             </div>
@@ -608,7 +608,7 @@
                             </ul>
                         </div>
                         <div class="pt-4 pb-3 text-left">
-                            <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                            <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                 class="btn btn-primary2">Order Now</a>
 
                         </div>
@@ -728,7 +728,7 @@
                                 </ul>
                             </div>
                             <div class="pt-4 pb-3 text-left">
-                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" rel="noopener noreferrer"
+                                <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer"
                                     class="btn btn-primary2">Order Now</a>
 
                             </div>
@@ -805,7 +805,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="call-box mx-2 pt-4 pb-4 pl-3 pr-3 text-center mt-5">
-                                <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;">
+                                <a href="javascript:void(Tawk_API.toggle())">
                                     <img src="../webimages/images/newimg/bubble-chat.svg" width="79" height="79"
                                         class="img-fluid pb-4" alt="big_sale">
                                     <h3 class="__font20 __fw700 text-white">Live Chat</h3>
@@ -836,7 +836,7 @@
                 <div class="bgsales text-center">
                     <h5 class="line-through lineheight __font22 __fw900 text-center text-red">$5999</h5>
                     <h3 class="__font40 __fw900 lineheight text-center text-black">$3999</h3>
-                    <a onclick="parent.LC_API.open_chat_window();return false;" href="javascript:;" class="btn btn-primary2 text-center">Order
+                    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-primary2 text-center">Order
                         Now</a>
                     <p class="pt-3 __font12 __fw500 text-center text-black">20% more OFF on Next Order</p>
                 </div>
