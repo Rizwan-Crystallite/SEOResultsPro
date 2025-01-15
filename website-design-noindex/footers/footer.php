@@ -113,7 +113,7 @@
 </script>
 <script src="../webimages/js/navbar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="../public/app/chart.js"></script>
+  <script src="../public/app/chat2025.js"></script>
     <noscript><a href="https://www.livechat.com/chat-with/18650526/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <script id="script-loader"></script>
 <script src="../webimages/js/content.js"></script>

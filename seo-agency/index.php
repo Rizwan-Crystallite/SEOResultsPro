@@ -1960,7 +1960,7 @@
         jQuery.event.special.touchstart={setup:function(e,t,s){this.addEventListener("touchstart",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.touchmove={setup:function(e,t,s){this.addEventListener("touchmove",s,{passive:!t.includes("noPreventDefault")})}},jQuery.event.special.wheel={setup:function(e,t,s){this.addEventListener("wheel",s,{passive:!0})}},jQuery.event.special.mousewheel={setup:function(e,t,s){this.addEventListener("mousewheel",s,{passive:!0})}};
     </script>
     <script src="slick/slick.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chat2025.js"></script>
     <!-- GSAP CDN  -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" ></script>
@@ -1980,7 +1980,7 @@
         $(".__reviewsWidget .__google").on("click", () => { "none" === $(".__reviewsSidebar.__google").css("display") && $(".__reviewsSidebar.__google").css("display", "block") }), $(".__reviewsWidget .__facebook").on("click", () => { "none" === $(".__reviewsSidebar.__facebook").css("display") && $(".__reviewsSidebar.__facebook").css("display", "block") }), $(".__reviewsSidebar .__close").on("click", () => { "block" === $(".__reviewsSidebar.__google").css("display") && $(".__reviewsSidebar.__google").css("display", "none"), "block" === $(".__reviewsSidebar.__facebook").css("display") && $(".__reviewsSidebar.__facebook").css("display", "none") });
     </script>
     <script>
-        const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../../public/app/chart.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
+        const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../../public/app/chat2025.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
     </script>
 <script 
    defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
