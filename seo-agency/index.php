@@ -1980,7 +1980,7 @@
         $(".__reviewsWidget .__google").on("click", () => { "none" === $(".__reviewsSidebar.__google").css("display") && $(".__reviewsSidebar.__google").css("display", "block") }), $(".__reviewsWidget .__facebook").on("click", () => { "none" === $(".__reviewsSidebar.__facebook").css("display") && $(".__reviewsSidebar.__facebook").css("display", "block") }), $(".__reviewsSidebar .__close").on("click", () => { "block" === $(".__reviewsSidebar.__google").css("display") && $(".__reviewsSidebar.__google").css("display", "none"), "block" === $(".__reviewsSidebar.__facebook").css("display") && $(".__reviewsSidebar.__facebook").css("display", "none") });
     </script>
     <script>
-        const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../../public/app/chat.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
+        const myTimeout=setTimeout(myGreeting1,5e3);function myGreeting1(){$.getScript("../../public/app/chart.js"),$.getScript("https://www.googletagmanager.com/gtag/js?id=AW-11022581138")}
     </script>
 <script 
    defer type="application/ld+json" src="/seo-results-pro-indexing-api-6ee695d00342.json"
