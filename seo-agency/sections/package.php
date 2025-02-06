@@ -48,7 +48,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +312,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -383,7 +383,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -444,7 +444,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -504,7 +504,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -568,7 +568,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -639,7 +639,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -709,7 +709,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -780,7 +780,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -838,7 +838,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -898,7 +898,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -961,7 +961,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -1031,7 +1031,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -1101,7 +1101,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>
@@ -1172,7 +1172,7 @@
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="livechat">Live Chat</a>
                                 </div>
                             </div>
                         </div>

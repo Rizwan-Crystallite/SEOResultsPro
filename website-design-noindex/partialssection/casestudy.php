@@ -24,7 +24,7 @@
                     <div class="col-xl-5">
                         <h4>Projects That Go To <br> Our Credit</h4>
                         <p>Since its inception, the company has been helping businesses of all shapes and sizes to strengthen their digital presence. With marketing solutions that work and pricing that makes sense, our best digital marketing agency has secured a massive clientele whose case studies you will love to learn about!</p>
-                        <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer" class="secondary-btn cta">View Our Work</a>
+                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" rel="noopener noreferrer" class="secondary-btn cta">View Our Work</a>
                     </div>
                     <div class="col-xl-7 text-center">
                         <div class="center-casestudy">

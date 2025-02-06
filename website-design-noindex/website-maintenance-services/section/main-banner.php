@@ -10,7 +10,7 @@
 
                     <div class="pb-3 pt-4 mx-md-0 mx-3 homeBannerbtn">
                         <a href="tel:(833)-800-0083" class="me-3 btn secondary-btn fw-700" rel="noopener noreferrer">Book A Call</a>
-                        <a href="javascript:void(Tawk_API.toggle())" rel="noopener noreferrer" class="ml-3 btn secondary-btn fw-700 senc">Live Chat</a>
+                        <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" rel="noopener noreferrer" class="ml-3 btn secondary-btn fw-700 senc">Live Chat</a>
 
                     </div>
 

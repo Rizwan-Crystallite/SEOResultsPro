@@ -45,7 +45,7 @@
                         <span>Get A Call</span>
                     </a>
                     <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                    <a href="javascript:void(Tawk_API.toggle())" class="agent-avatar">
+                    <a href="javascript:;" onclick="parent.LC_API.open_chat_window();return false;" rel="noopener noreferrer" class="agent-avatar">
                         <span>initial consultation</span>
                         Contact: <strong>Jessica</strong>
                     </a>
