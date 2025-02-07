@@ -121,47 +121,47 @@ if ($params['name'] == "" || $params['phone'] == "" || $params['email'] == "") {
     }
 }
 
-// The URL where you want to send the request
-$url = 'https://brandsapi.pulse-force.com/api/v1/leads'; // Replace with your target URL
+// // The URL where you want to send the request
+// $url = 'https://brandsapi.pulse-force.com/api/v1/leads'; // Replace with your target URL
 
 
-// Data to send
-$data2 = array(
-    'name' => $name,
-    'phone' => $params['phone'],
-    'email' => $params['email'],
-    'message' => $params['comments'],
-    'ip' => $clientIP,
-    'pageurl' => $pageURL,
-    'formName' => $form_name,
-    'jsonData' => json_encode($params),
-    'created_date' => $date,
-);
+// // Data to send
+// $data2 = array(
+//     'name' => $name,
+//     'phone' => $params['phone'],
+//     'email' => $params['email'],
+//     'message' => $params['comments'],
+//     'ip' => $clientIP,
+//     'pageurl' => $pageURL,
+//     'formName' => $form_name,
+//     'jsonData' => json_encode($params),
+//     'created_date' => $date,
+// );
 
-// Data to be sent in the request
-$data3 = array(
-    'page_url' => $pageURL,
-    'user_ip' => $clientIP,
-    'lead_data' => $data2
-);
-// Initialize cURL session
-$ch = curl_init($url);
-// Set the necessary cURL options
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
-curl_setopt($ch, CURLOPT_POST, true); // Specify the request type as POST
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data3)); // Encode the data array to JSON and set it as POST fields
-curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    'Content-Type: application/json', // Set the content type to JSON
-    'Content-Length: ' . strlen(json_encode($data3)) // Set the content length
-));
-// Execute the cURL request and get the response
-$response = curl_exec($ch);
-// Check for errors
-if (curl_errno($ch)) {
-    echo 'Error:' . curl_error($ch);
-} else {
-    // Print the response
-    echo 'Response:' . $response;
-}
-// Close the cURL session
-curl_close($ch);
+// // Data to be sent in the request
+// $data3 = array(
+//     'page_url' => $pageURL,
+//     'user_ip' => $clientIP,
+//     'lead_data' => $data2
+// );
+// // Initialize cURL session
+// $ch = curl_init($url);
+// // Set the necessary cURL options
+// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
+// curl_setopt($ch, CURLOPT_POST, true); // Specify the request type as POST
+// curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data3)); // Encode the data array to JSON and set it as POST fields
+// curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+//     'Content-Type: application/json', // Set the content type to JSON
+//     'Content-Length: ' . strlen(json_encode($data3)) // Set the content length
+// ));
+// // Execute the cURL request and get the response
+// $response = curl_exec($ch);
+// // Check for errors
+// if (curl_errno($ch)) {
+//     echo 'Error:' . curl_error($ch);
+// } else {
+//     // Print the response
+//     echo 'Response:' . $response;
+// }
+// // Close the cURL session
+// curl_close($ch);
