@@ -70,7 +70,7 @@ $.getJSON("https://api.ipify.org?format=json", function (t) {
                     )
                 },
                 success: function (t) {
-                  window.location.href = "https://seoresultspro.com/thankyou"
+                  window.location.replace("https://seoresultspro.com/thankyou");
                   return false;
                 },
               }).fail((t) => {
