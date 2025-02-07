@@ -16,9 +16,9 @@
         $mail->Port=587;
         $mail->SMTPSecure="tls";
         $mail->SMTPAuth=true;
-        $mail->Username="signups@seoresultspro.com";
-        $mail->Password="&F6E8TSM2YS&3dH>";
-        $mail->SetFrom("signups@seoresultspro.com");
+        $mail->Username = "developer@infinitimediainc.com";
+        $mail->Password = "dgezdqflhifhyata";
+        $mail->SetFrom("developer@infinitimediainc.com");
         $mail->addAddress("harrykennedy.cs@gmail.com");
         $mail->IsHTML(true);
         $mail->Subject="Lead Form - SEO RESULTS PRO";
