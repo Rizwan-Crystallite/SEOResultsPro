@@ -196,7 +196,8 @@ try {
         echo 'Error:' . curl_error($ch);
     } else {
         
-        echo 'Response:' . $response;
+        
+        header('location: https://seoresultspro.com/thankyou/');
     }
     
     curl_close($ch);
