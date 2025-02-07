@@ -83,4 +83,3 @@ $.getJSON("https://api.ipify.org?format=json", function (t) {
           })
       })()
   })
-  return false;
