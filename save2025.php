@@ -13,7 +13,11 @@ parse_str($_POST['form'], $params);
 $form_name = $params['hiddenform'];
 
 $url = 'https://brandsapi.pulse-force.com/api/v1/leads'; 
-
+if ($params['name'] == "") {
+    $name = $params['fname'];
+} else {
+    $name = $params['name'];
+}
 
 
 try {
@@ -58,11 +62,7 @@ try {
 
 try {
 
-    if ($params['name'] == "") {
-        $name = $params['fname'];
-    } else {
-        $name = $params['name'];
-    }
+   
 
     $html = "<table><tr><td>Name</td><td>" . $name . "</td></tr><tr><td>Email</td><td>" . $params['email'] . "</td></tr><tr><td>Phone</td><td>	" . $params['phone'] . "</td></tr><tr><td>message</td><td>" . $params['comments'] . "</td></tr><tr><td>page URL</td><td>$pageURL</td></tr><tr><td>IP</td><td>$clientIP</td></tr>
         <tr><td>FORM NAME </td><td>$form_name</td></tr></table>";
@@ -204,5 +204,6 @@ try {
  catch (Exception $e) {
     echo "API FUNCTION" . $e;
 
-    
 }
+
+echo "success";
