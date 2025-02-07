@@ -28,7 +28,7 @@ $data = array(
     'created_date' => $date,
 );
 
-print_r($data);
+
 
 // Initialize cURL session
 $ch = curl_init($api_url);
