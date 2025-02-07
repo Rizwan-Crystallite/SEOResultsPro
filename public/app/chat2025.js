@@ -37,18 +37,7 @@ window.__lc.product_name = "livechat"
   }
   !n.__lc.asyncInit && e.init(), (n.LiveChatWidget = n.LiveChatWidget || e)
 })(window, document, [].slice)
-// var Tawk_API = Tawk_API || {};
 
-// (function () {
-//     var s1 = document.createElement("script");
-//     var s0 = document.getElementsByTagName("script")[0];
-
-//     s1.async = true;
-//     s1.src = "https://embed.tawk.to/677ff8e1af5bfec1dbe94876/1ih5u8cd1";
-//     s1.charset = "UTF-8";
-//     s1.setAttribute("crossorigin", "*");
-//     s0.parentNode.insertBefore(s1, s0);
-// })();
 
 let client_ip
 $.getJSON("https://api.ipify.org?format=json", function (t) {
@@ -82,6 +71,7 @@ $.getJSON("https://api.ipify.org?format=json", function (t) {
                 },
                 success: function (t) {
                   window.location.href = "https://seoresultspro.com/thankyou"
+                  return false;
                 },
               }).fail((t) => {
                 console.log(t)
@@ -93,3 +83,4 @@ $.getJSON("https://api.ipify.org?format=json", function (t) {
           })
       })()
   })
+  return false;
