@@ -80,7 +80,7 @@
                     </div>
                     <div class="nav--contact">
                         <a href="tel:(833)-800-0083" class="call--cta">(833)-800-0083</a>
-                        <a href="javascript:void(Tawk_API.toggle())" class="agent-avatar">
+                        <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="agent-avatar">
                             <span>initial consultation</span>
                             Contact: <strong>Jessica</strong>
                         </a>
@@ -692,7 +692,7 @@
                     <div class="pt-3 d-flex justify-content-center flex-wrap gap-3 mb-md-0 mb-5">
 
                         <div class="text-center">
-                            <a href="javascript:void(Tawk_API.toggle())" data-bs-toggle="modal"
+                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" data-bs-toggle="modal"
                                 data-bs-target="#ourWebModal"
                                 class="btn btn-secondary text-uppercase f_inter fw-500">Talk To An Seo Expert<span
                                     class="px-2"></span> <img src="images/rocket_icon.svg" class="img-fluid"
@@ -742,7 +742,7 @@
                         <h2 class="font-50 fw-700 text-center">SEO Packages</h2>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center d-none">
                     <div class="col-lg-9 col-xl-9">
                         <ul class="nav nav-pills mb-3 justify-content-center " id="pills-tab" role="tablist">
                             <li class="nav-item position-relative" role="presentation">
@@ -776,10 +776,10 @@
                             <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch">
                                 <div class="PackageGrid">
                                     <div class="PackageDetails">
-                                        <h3 class="font-24 fw-700">BASIC</h3>
-                                        <p class="font-12">Great for new start ups and businesses new to SEO! A solid first step
-                                            towards conversions.</p>
-                                        <h4 class="text-th">$199/<span class="fw-500 font-20">Month</span></h4>
+                                        <h3 class="font-24 fw-700">Startup</h3>
+                                        <p class="font-12">Designed for small businesses or startups
+                                            looking to establish a foundation in SEO.</p>
+                                        <h4 class="text-th">$399/<span class="fw-500 font-20">Month</span></h4>
                                         <div class="PackageBtn">
                                             <img src="images/p_icon.svg" class="img-fluid" alt=""> <span
                                                 class="text-center mx-auto">Get Started</span>
@@ -789,28 +789,26 @@
                                     <div class="PackageList pt-3">
                                         <div class="scroll-area BlueScroll">
         
-                                            <span>Keyword Research</span>
-                                            <li>15 Keywords</li>
-                                            <span>Content</span>
-                                            <li>2 Articles (400 words)</li>
-                                            <li>2 Blogs (500 words)</li>
-                                            <span>Link Building</span>
-                                            <li>10 Submissions</li>
-                                            <li>10 Classifieds</li>
-                                            <li>10 Community Participation</li>
-                                            <li>10 Business Profiles</li>
-                                            <span>Website</span>
-                                            <li>Meta Tags Creation</li>
+                                            <span>Setup:</span>
+                                            <li>Website Sitemap</li>
+                                            <li>Check for SEO Scope</li>
+                                            <li>Custom 404 Page Setup / Nofollow Link Checkup</li>
+                                            <span>Pages & Keywords:</span>
+                                            <li>Up to 5 pages optimized</li>
+                                            <li>Focused Keywords: 5</li>
+                                            <span>On-page SEO:</span>
                                             <li>Web Content Optimization</li>
-                                            <li>Keyword Optimization</li>
-                                            <li>Anchor Text Optimization</li>
-                                            <span>Conversion Tracking</span>
-                                            <li>Google Analytics Installation</li>
-                                            <span>Reporting</span>
-                                            <li>Monthly Progress Report</li>
-                                            <span>Features</span>
-                                            <li>Dedicated Project Manager</li>
-                                            <li>Support, 5 Days a Week</li>
+                                            <li>URL Structure Improvements</li>
+                                            <li>Meta Tags (Title, Description, Header Tags)</li>
+                                            <li>Image Alt Tags and Optimization: 5 images</li>
+                                            <span>Technical Optimization:</span>
+                                            <li>Fixing Crawl Errors</li>
+                                            <li>Mobile-first Optimization</li>
+                                            <li>Page Speed Optimization</li>
+                                            <li>Core Web Vitals Improvements</li>
+                                            <li>Schema Markup Implementation</li>
+                                            <span>Progress Reporting:</span>
+                                            <li>Basic Monthly Progress Reports</li>
                                         </div>
                                     </div>
                                     <div class="posotion-relative d-flex justify-content-around pb-4">
@@ -821,7 +819,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -829,10 +827,9 @@
                             <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch">
                                 <div class="PackageGrid light-grey">
                                     <div class="PackageDetails">
-                                        <h3 class="font-24 fw-700">STANDARD</h3>
-                                        <p class="font-12">Highly sought after by companies who want to increase their
-                                            conversions and market share!</p>
-                                        <h4 class="text-th">$249/<span class="fw-500 font-20">Month</span></h4>
+                                        <h3 class="font-24 fw-700">Growth</h3>
+                                        <p class="font-12">Ideal for businesses aiming to grow their organic reach and improve conversions.</p>
+                                        <h4 class="text-th">$750/<span class="fw-500 font-20">Month</span></h4>
                                         <div class="PackageBtn">
                                             <img src="images/p_icon.svg" class="img-fluid" alt=""> <span
                                                 class="text-center mx-auto">Get Started</span>
@@ -842,33 +839,38 @@
                                     <div class="PackageList pt-3">
                                         <div class="scroll-area BlueScroll">
         
-                                            <span>Keyword Research</span>
-                                            <li>25 Keywords</li>
-                                            <span>Content</span>
-                                            <li>4 Articles (400 words)</li>
-                                            <li>4 Blogs (500 words)</li>
-                                            <li>1 Press Releases</li>
-                                            <span>Promotional Content</span>
-                                            <li>1 infographics</li>
-                                            <span>Link Building</span>
-                                            <li>15 Submissions</li>
-                                            <li>15 Classifieds</li>
-                                            <li>15 Community Participation</li>
-                                            <li>15 Business Profiles</li>
-                                            <span>Website</span>
-                                            <li>Meta Tags Creation</li>
+                                            <span>Setup:</span>
+                                            <li>Website Sitemap</li>
+                                            <li>Check for SEO Scope</li>
+                                            <li>Custom 404 Page Setup / Nofollow Link Checkup</li>
+                                            <span>Pages:</span>
+                                            <li>Up to 10 pages optimized</li>
+                                            <span>Keyword Research:</span>
+                                            <li>Focused Keywords: 10</li>
+                                            <li>Keyphrase Optimization: 5</li>
+                                            <span>On-page SEO:</span>
+                                            <li>Meta Tags (Title, Description, Header Tags)</li>
+                                            <li>Image Alt Tags and Optimization: 10 images</li>
+                                            <li>URL Structure Improvements</li>
                                             <li>Web Content Optimization</li>
-                                            <li>Keyword Optimization</li>
-                                            <li>Landing page Optimization</li>
                                             <li>Anchor Text Optimization</li>
-                                            <li>Image Optimization</li>
-                                            <span>Conversion Tracking</span>
-                                            <li>Google Analytics Installation</li>
-                                            <span>Reporting</span>
-                                            <li>Monthly Progress Report</li>
-                                            <span>Features</span>
-                                            <li>Dedicated Project Manager</li>
-                                            <li>Support, 5 Days a Week</li>
+                                            <li>Landing Page Optimization</li>
+                                            <span>Technical Optimization:</span>
+                                            <li>Fixing Crawl Errors</li>
+                                            <li>Mobile-first Optimization</li>
+                                            <li>Page Speed Optimization</li>
+                                            <li>Core Web Vitals Improvements</li>
+                                            <li>Schema Markup Implementation</li>
+                                            <span>Tracking & Analytics:</span>
+                                            <li>Google Analytics Setup</li>
+                                            <li>Basic Conversion Tracking</li>
+                                            <li>Google Search Console Setup</li>
+                                            <span>Progress Reporting:</span>
+                                            <li>Google Analytics Reports</li>
+                                            <li>Monthly Progress Reports with Recommendations</li>
+                                            <span>Account Management:</span>
+                                            <li>Dedicated Account Manager</li>
+                                            <li>1-Hour Free Consultation (Per Month)</li>
         
                                         </div>
                                     </div>
@@ -881,7 +883,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -889,10 +891,9 @@
                             <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch">
                                 <div class="PackageGrid">
                                     <div class="PackageDetails">
-                                        <h3 class="font-24 fw-700">PROFESSIONAL</h3>
-                                        <p class="font-12">Great for new start ups and businesses new to
-                                            SEO! A solid first step towards conversions.</p>
-                                        <h4 class="text-th">$349/<span class="fw-500 font-20">Month</span></h4>
+                                        <h3 class="font-24 fw-700">Aggresive</h3>
+                                        <p class="font-12">Best suited for businesses seeking comprehensive SEO strategies and advanced tracking</p>
+                                        <h4 class="text-th">$1550/<span class="fw-500 font-20">Month</span></h4>
                                         <div class="PackageBtn">
                                             <img src="images/p_icon.svg" class="img-fluid" alt=""> <span
                                                 class="text-center mx-auto">Get Started</span>
@@ -901,38 +902,40 @@
         
                                     <div class="PackageList pt-3">
                                         <div class="scroll-area BlueScroll">
-        
-                                            <span>Keyword Research</span>
-                                            <li>35 Keywords</li>
-                                            <span>Content</span>
-                                            <li>6 Articles (400 words)</li>
-                                            <li>6 Blogs (500 words)</li>
-                                            <li>2 Press Releases</li>
-                                            <span>Promotional Content</span>
-                                            <li>1 infographics</li>
-                                            <li>1 Videos (non Voice-over)</li>
-                                            <span>Link Building</span>
-                                            <li>20 Submissions</li>
-                                            <li>20 Classifieds</li>
-                                            <li>20 Community Participation</li>
-                                            <li>20 Business Profiles</li>
-                                            <span>Website</span>
-                                            <li>Meta Tags Creation</li>
+                                            <span>Setup:</span>
+                                            <li>Website Sitemap</li>
+                                            <li>Check for SEO Scope</li>
+                                            <li>Custom 404 Page Setup / Nofollow Link Checkup</li>
+                                            <span>Pages:</span>
+                                            <li>Up to 15 pages optimized.</li>
+                                            <span>Keyword Research:</span>
+                                            <li>Focused Keywords: 15</li>
+                                            <li>Keyphrase Optimization: 10</li>
+                                            <span>On-page SEO:</span>
+                                            <li>Landing Page Setup</li>
+                                            <li>SGE Visibility Optimization</li>
                                             <li>Web Content Optimization</li>
-                                            <li>Keyword Optimization</li>
-                                            <li>Landing page Optimization</li>
-                                            <li>Call To Actions</li>
-                                            <li>Site Speed Optimization</li>
                                             <li>Anchor Text Optimization</li>
-                                            <li>Image Optimization</li>
-                                            <span>Conversion Tracking</span>
-                                            <li>Google Analytics Installation</li>
-                                            <span>Reporting</span>
-                                            <li>Monthly Progress Report</li>
-                                            <span>Features</span>
-                                            <li>Dedicated Project Manager</li>
-                                            <li>Support, 5 Days a Week</li>
-        
+                                            <li>Landing Page Optimization</li>
+                                            <li>URL Structure Improvements</li>
+                                            <li>Meta Tags (Title, Description, Header Tags)</li>
+                                            <li>Image Alt Tags and Optimization: 15 images</li>
+                                            <span>Technical Optimization:</span>
+                                            <li>Fixing Crawl Errors</li>
+                                            <li>Mobile-first Optimization</li>
+                                            <li>Page Speed Optimization</li>
+                                            <li>Core Web Vitals Improvements</li>
+                                            <li>Schema Markup Implementation</li>
+                                            <span>Tracking & Analytics:</span>
+                                            <li>Google Analytics Setup</li>
+                                            <li>Google Search Console Setup</li>
+                                            <li>Basic Conversion Tracking</li>
+                                            <li>Full-Funnel Conversion Tracking</li>
+                                            <span>Progress Reporting:</span>
+                                            <li>Business Intelligence Dashboard</li>
+                                            <span>Account Management:</span>
+                                            <li>Dedicated Account Manager</li>
+                                            <li>2-Hour Free Consultation (Per Month)</li>
                                         </div>
                                     </div>
                                     <div class="posotion-relative d-flex justify-content-around pb-4">
@@ -944,12 +947,12 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch">
+                            <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch  d-none">
                                 <div class="PackageGrid">
                                     <div class="PackageDetails">
                                         <h3 class="font-24 fw-700">PREMIUM</h3>
@@ -1015,12 +1018,12 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch">
+                            <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch  d-none">
                                 <div class="PackageGrid light-grey">
                                     <div class="PackageDetails">
                                         <h3 class="font-24 fw-700">TITANIUM</h3>
@@ -1085,12 +1088,12 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch">
+                            <div class="col-lg-4 mt-4 mb-3 mobileMargin d-flex align-items-stretch  d-none">
                                 <div class="PackageGrid">
                                     <div class="PackageDetails">
                                         <h3 class="font-24 fw-700">DIAMOND</h3>
@@ -1156,7 +1159,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1217,7 +1220,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1277,7 +1280,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1341,7 +1344,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1412,7 +1415,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1482,7 +1485,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1553,7 +1556,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1611,7 +1614,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1671,7 +1674,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1734,7 +1737,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1804,7 +1807,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1874,7 +1877,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1945,7 +1948,7 @@
                                             </a>
                                         </div>
                                         <div class="">
-                                            <a href="javascript:void(Tawk_API.toggle())" class="livechat">Live Chat</a>
+                                            <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;" class="livechat">Live Chat</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2810,7 +2813,7 @@
             <span class="icon">
                 <img width="30" height="30" alt="SRP" class="img-fluid" src="images/chat-icon.png" loading="lazy">
                 <div class="txtBody">
-                    <a href="javascript:void(Tawk_API.toggle())">Chat Now</a>
+                    <a onclick="parent.LC_API.open_chat_window();return false;"  href="javascript:;">Chat Now</a>
                 </div>
             </span>
         </div>
